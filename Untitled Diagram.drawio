@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T07:46:20.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="92TFZAtUngw7rsooK_5N" version="24.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-28T08:01:20.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WHknJ8rJqyjb7-2lFrq7" version="24.4.8" type="github" pages="2">
   <diagram name="Page-1" id="GRgBKRHTRfm9LtRrjL7P">
     <mxGraphModel dx="2731" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -653,7 +653,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lrQJMvqWQEyfTmaALA5x" name="Page-2">
-    <mxGraphModel dx="1436" dy="3018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-356" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -855,6 +855,68 @@
         </mxCell>
         <mxCell id="_byT1hjCmDcIU_fbNmUB-39" value="Tampilkan aktivitas&amp;nbsp;&lt;div&gt;telah ditutup&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="3740" y="480" width="215.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-2" target="8Y8LRMUrAj_4kflv9loI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-2" value="Cancle task" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4484.75" y="-430" width="122" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-4" target="8Y8LRMUrAj_4kflv9loI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-4" value="Tampilkan pilihan tombol berisi id aktivitas yang&amp;nbsp;&lt;div&gt;diambil executor&amp;nbsp;&lt;br&gt;dan belum diclose&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4458" y="-250" width="182" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-7" target="8Y8LRMUrAj_4kflv9loI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4545.75" y="68.88000000000011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-6" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Y8LRMUrAj_4kflv9loI-5">
+          <mxGeometry x="0.023" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-7" value="User menekan tombol" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4463" y="-78" width="165.5" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-9" target="8Y8LRMUrAj_4kflv9loI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-9" value="Tampilkan aktivitas&lt;div&gt;&amp;nbsp;beserta seruan apakah&amp;nbsp;&lt;/div&gt;&lt;div&gt;anda ingin melepas&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;aktivitas ini&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dengan tombol iya, dan tidak&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4408" y="91" width="275.5" height="103.74" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-14" target="8Y8LRMUrAj_4kflv9loI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-11" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Y8LRMUrAj_4kflv9loI-10">
+          <mxGeometry x="-0.1404" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-14" target="8Y8LRMUrAj_4kflv9loI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-13" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Y8LRMUrAj_4kflv9loI-12">
+          <mxGeometry x="0.0977" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-14" value="User menekan iya" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4453" y="231" width="185.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Y8LRMUrAj_4kflv9loI-16" target="8Y8LRMUrAj_4kflv9loI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-16" value="Aktivitas dlepas" style="whiteSpace=wrap;html=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4485.75" y="401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-17" value="Aktivitas tidak jadi dilepas" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4751.25" y="241" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Y8LRMUrAj_4kflv9loI-18" value="Tampilkan aktivitas&amp;nbsp;&lt;div&gt;telah dilepas&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4438" y="511" width="215.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
