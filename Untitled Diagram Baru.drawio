@@ -207,7 +207,7 @@
           <mxGeometry x="225.5" y="660" width="69" height="69" as="geometry" />
         </mxCell>
         <mxCell id="hdceFoOf8e5jH7uF81Px-7" value="Calculate Public Key (e, n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="213" y="750" width="90" height="30" as="geometry" />
+          <mxGeometry x="213" y="740" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
