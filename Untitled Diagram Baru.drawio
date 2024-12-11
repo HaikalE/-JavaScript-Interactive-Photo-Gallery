@@ -486,7 +486,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qy94yLr5oTmCWDSabIzY" name="Page-5">
-    <mxGraphModel dx="7055" dy="4315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5644" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -538,6 +538,12 @@
         </mxCell>
         <mxCell id="u1g9Lj58TBD7gzOgW_TF-20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1350" y="3980" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="FuOR3RMgR6L2yD2c6r0e-1" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#fef4de;fillColor=#fef4de;" vertex="1" parent="1">
+          <mxGeometry x="362" y="1951" width="108" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="FuOR3RMgR6L2yD2c6r0e-2" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#fef4de;fillColor=#fef4de;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1951" width="108" height="146" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
