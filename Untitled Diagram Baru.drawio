@@ -1074,7 +1074,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r4JKPRNekTpHeYwlbghc" name="Page-11">
-    <mxGraphModel dx="1651" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2540" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1190,10 +1190,10 @@
         <mxCell id="GMpIShFMCya6veaJ8tZX-8" value="Redirect to LoginActivity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" parent="1" vertex="1">
           <mxGeometry x="425.92" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GMpIShFMCya6veaJ8tZX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GMpIShFMCya6veaJ8tZX-10" target="ysRCGmnIFj69NSUflNg0-4" edge="1">
+        <mxCell id="g5wG6MA6e76k8snTUHU4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMpIShFMCya6veaJ8tZX-10" target="ysRCGmnIFj69NSUflNg0-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="1245" />
+              <mxPoint x="170" y="1215" />
               <mxPoint x="170" y="205" />
             </Array>
           </mxGeometry>
