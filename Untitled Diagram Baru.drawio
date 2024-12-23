@@ -819,72 +819,65 @@
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-4" value="Input Encrypted Message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F8F2E3;" vertex="1" parent="1">
           <mxGeometry x="330" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-6" target="FPqa8Yshrz6XEBGMn8Mt-8">
+        <mxCell id="heErd5NPi7avjOITuZ0o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-6" target="FPqa8Yshrz6XEBGMn8Mt-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-6" value="Input Encrypted AES&amp;nbsp;&lt;div&gt;Key Sender&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-6" value="Input encrypted AES&amp;nbsp;&lt;div&gt;Key Sender&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F8F2E3;" vertex="1" parent="1">
           <mxGeometry x="315" y="250" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-8" target="FPqa8Yshrz6XEBGMn8Mt-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-8" value="Is Input Valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="340" y="340" width="100" height="100" as="geometry" />
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-8" value="Is RSA Private&amp;nbsp;&lt;div&gt;Key Available?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-10" target="FPqa8Yshrz6XEBGMn8Mt-23">
+        <mxCell id="heErd5NPi7avjOITuZ0o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="FPqa8Yshrz6XEBGMn8Mt-23">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="605" as="sourcePoint" />
+            <mxPoint x="390" y="925" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="1045" />
-              <mxPoint x="410" y="1045" />
+              <mxPoint x="290" y="905" />
+              <mxPoint x="390" y="905" />
             </Array>
-            <mxPoint x="290" y="575" as="sourcePoint" />
-            <mxPoint x="410" y="1085" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-10" value="Display error: Invalid Input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="220" y="500" width="140" height="70" as="geometry" />
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-10" value="Display Error: Private Key&amp;nbsp;&lt;div&gt;Not Found&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+          <mxGeometry x="220" y="540" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-12" target="FPqa8Yshrz6XEBGMn8Mt-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-12" value="Encode AES Key to Base64" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="420" y="500" width="120" height="60" as="geometry" />
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-12" value="Decrypt AES Key using RSA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-14" target="FPqa8Yshrz6XEBGMn8Mt-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-14" value="Encrypt AES Key using RSA Public Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="420" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-14" value="Decode decrypted AES Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+          <mxGeometry x="420" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-16" target="FPqa8Yshrz6XEBGMn8Mt-18">
+        <mxCell id="heErd5NPi7avjOITuZ0o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-16" target="heErd5NPi7avjOITuZ0o-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-16" value="Convert Encrypted AES Key to String" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="420" y="680" width="120" height="60" as="geometry" />
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-16" value="Decrypt encrypted message using AES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+          <mxGeometry x="420" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-18" target="FPqa8Yshrz6XEBGMn8Mt-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-18" value="Encrypt Plain Text Message using AES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="420" y="770" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-20" target="FPqa8Yshrz6XEBGMn8Mt-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-20" value="Call sendMessage function" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="420" y="860" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-22" target="FPqa8Yshrz6XEBGMn8Mt-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-22" value="Send Encrypted Message and AES Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="420" y="950" width="120" height="60" as="geometry" />
+        <mxCell id="FPqa8Yshrz6XEBGMn8Mt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FPqa8Yshrz6XEBGMn8Mt-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="830" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-23" value="End" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1080" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.588;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-8" target="FPqa8Yshrz6XEBGMn8Mt-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heErd5NPi7avjOITuZ0o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="heErd5NPi7avjOITuZ0o-1" target="FPqa8Yshrz6XEBGMn8Mt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heErd5NPi7avjOITuZ0o-1" value="Decrypted message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#F8F2E3;" vertex="1" parent="1">
+          <mxGeometry x="405" y="810" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
