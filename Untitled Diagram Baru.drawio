@@ -868,7 +868,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-23" value="End" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F8F2E3;" vertex="1" parent="1">
-          <mxGeometry x="330" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="930" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.588;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-8" target="FPqa8Yshrz6XEBGMn8Mt-10">
           <mxGeometry relative="1" as="geometry" />
