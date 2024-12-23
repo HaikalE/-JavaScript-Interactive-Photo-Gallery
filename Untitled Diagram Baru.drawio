@@ -836,6 +836,11 @@
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-8" target="FPqa8Yshrz6XEBGMn8Mt-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7Ll2GT-58kr5INuf7Rv8-1" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FPqa8Yshrz6XEBGMn8Mt-7">
+          <mxGeometry x="-0.0411" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-8" value="Is RSA Private&amp;nbsp;&lt;div&gt;Key Available?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F8F2E3;" vertex="1" parent="1">
           <mxGeometry x="330" y="350" width="120" height="120" as="geometry" />
         </mxCell>
@@ -878,6 +883,11 @@
         </mxCell>
         <mxCell id="FPqa8Yshrz6XEBGMn8Mt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.588;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPqa8Yshrz6XEBGMn8Mt-8" target="FPqa8Yshrz6XEBGMn8Mt-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ll2GT-58kr5INuf7Rv8-2" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FPqa8Yshrz6XEBGMn8Mt-24">
+          <mxGeometry x="0.0984" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="heErd5NPi7avjOITuZ0o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="heErd5NPi7avjOITuZ0o-1" target="FPqa8Yshrz6XEBGMn8Mt-23">
           <mxGeometry relative="1" as="geometry" />
