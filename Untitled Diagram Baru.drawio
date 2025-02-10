@@ -245,7 +245,7 @@
         <mxCell id="hdceFoOf8e5jH7uF81Px-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hdceFoOf8e5jH7uF81Px-13" target="hdceFoOf8e5jH7uF81Px-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hdceFoOf8e5jH7uF81Px-13" value="Decrypt AES Key Recipient using Self Private Key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="hdceFoOf8e5jH7uF81Px-13" value="Decrypt Affine Cipher Key Recipient using Self Private Key" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="210" y="1310" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hdceFoOf8e5jH7uF81Px-24" value="Upload Public Key Sender" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
