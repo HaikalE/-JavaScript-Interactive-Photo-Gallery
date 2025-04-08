@@ -328,11 +328,8 @@
         <mxCell id="anI8h9v2uHgggLAkE40K-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Tingginya tuntutan keamanan tanpa kompromi performa&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="840" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pjJeIot3sjzbmkM10I51-3" value="&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(248, 242, 227);&quot;&gt;&lt;b&gt;Inefficiency of Conventional&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(248, 242, 227);&quot;&gt;&lt;b&gt;RSA for Real-time&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(248, 242, 227);&quot;&gt;&lt;b&gt;Instant Messaging&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#99CCFF;" vertex="1" parent="1">
-          <mxGeometry x="620" y="280" width="290" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="pjJeIot3sjzbmkM10I51-2" value="&lt;span style=&quot;text-wrap-mode: nowrap; font-size: 20px;&quot;&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;Inefficiency of Conventional&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;&lt;font&gt;&lt;b&gt;RSA for Real-time&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;&lt;font&gt;&lt;b style=&quot;&quot;&gt;Instant Messaging&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="830" y="703.5" width="590" height="56.5" as="geometry" />
+          <mxGeometry x="830" y="703.5" width="270" height="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
