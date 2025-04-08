@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="b91OyYnpyXX2FCJC0Uhe-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="100" width="1540" height="530" as="geometry" />
+          <mxGeometry x="280" y="100" width="1540" height="550" as="geometry" />
         </mxCell>
         <mxCell id="Q0FO-jOyB-rHWVfwx6GA-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;strokeColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="294.85" y="180" width="315.15" height="410" as="geometry" />
@@ -35,9 +35,9 @@
           <mxGeometry x="1150.0700000000002" y="245" width="135" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q0FO-jOyB-rHWVfwx6GA-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;strokeColor=#0000FF;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="200" width="352.57" height="410" as="geometry" />
+          <mxGeometry x="1060" y="200" width="352.57" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="Q0FO-jOyB-rHWVfwx6GA-22" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;p class=&quot;whitespace-pre-wrap break-words&quot;&gt;Target tahap lanjutan:&lt;/p&gt;&lt;ul depth=&quot;0&quot; class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot;&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Optimasi algoritma berdasarkan hasil pengujian awal&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Pengujian komprehensif pada berbagai format data (teks, gambar, suara)&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Implementasi varian RSA pada prototipe aplikasi instant messaging&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Uji ketahanan terhadap berbagai metode kriptanalisis&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Pengujian skalabilitas dan performa pada kondisi jaringan beragam&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Evaluasi user experience pada implementasi aplikasi real-time&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Publikasi hasil penelitian di jurnal internasional terindeks Q3&lt;/li&gt;&lt;br/&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Pendaftaran hak cipta algoritma yang dikembangkan&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="Q0FO-jOyB-rHWVfwx6GA-22" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;p class=&quot;whitespace-pre-wrap break-words&quot;&gt;Target tahap lanjutan:&lt;/p&gt;&lt;ul depth=&quot;0&quot; class=&quot;[&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc space-y-1.5 pl-7&quot;&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Optimasi algoritma berdasarkan hasil pengujian awal&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Pengujian komprehensif pada berbagai format data (teks, gambar, suara)&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Implementasi varian RSA pada prototipe aplikasi instant messaging&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Uji ketahanan terhadap berbagai metode kriptanalisis&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Pengujian skalabilitas dan performa pada kondisi jaringan beragam&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Evaluasi user experience pada implementasi aplikasi real-time&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Publikasi hasil penelitian di jurnal internasional terindeks Q3&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Pendaftaran hak cipta algoritma yang dikembangkan&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1081.2900000000002" y="370" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Q0FO-jOyB-rHWVfwx6GA-23" value="Penelitian Sekarang (lanjutan)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
         <mxCell id="Q0FO-jOyB-rHWVfwx6GA-27" value="Relevansi Roadmap PT dengan Roadmap Peneliti" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1533.82" y="180" width="184.93" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q0FO-jOyB-rHWVfwx6GA-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" target="b91OyYnpyXX2FCJC0Uhe-2" edge="1">
+        <mxCell id="Q0FO-jOyB-rHWVfwx6GA-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.488;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="b91OyYnpyXX2FCJC0Uhe-2" edge="1" source="b91OyYnpyXX2FCJC0Uhe-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1030" y="630" as="sourcePoint" />
             <mxPoint x="1034" y="100" as="targetPoint" />
