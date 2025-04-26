@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14" pages="4">
   <diagram name="Page-1" id="zQt-rotJQUlOzZpmshgP">
     <mxGraphModel dx="2162" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -322,6 +322,149 @@
         </mxCell>
         <mxCell id="pjJeIot3sjzbmkM10I51-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Penerapan signcryption SSC–OSS untuk menjamin kerahasiaan dan autentikasi pesan digital&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="703.5" width="270" height="56.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iSpcjaYy6WtPi-dQQyyY" name="Page-4">
+    <mxGraphModel dx="2854" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MayKHuwfd18RUUiYo5_4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="170" width="1690" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="420.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-3" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Machine&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-460" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-4" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Method&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-119.99999999999955" y="420.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-6" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Material&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-600" y="420" as="sourcePoint" />
+            <mxPoint x="650" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-8" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="344" width="111.75" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Kapasitas perangkat (CPU/FPGA) terbatas untuk operasi modular eksponensial besar.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="344" width="215" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="277.14285714285734" as="targetPoint" />
+            <mxPoint x="-250" y="277.5000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Latensi I/O dan bandwidth memori memperlambat throughput signcryption.&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="255" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320.99999999999955" y="367.14285714285734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Kompleksitas integrasi (encapsulation tanda tangan OSS ke dalam ciphertext SSC) belum distandarisasi.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="360" width="361" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.99999999999955" y="285.7142857142858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Belum ada prosedur standar untuk menggabungkan enkripsi SSC dan tanda tangan OSS dalam satu langkah.&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-10" target="MayKHuwfd18RUUiYo5_4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="420.0000000000002" as="targetPoint" />
+            <mxPoint x="260" y="248" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="487.14285714285734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Penyimpanan dan distribusi kunci besar (modulus N dan parameter A OSS) memerlukan proteksi khusus.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="480" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="289.99999999999955" y="420.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-22" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Man&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="91" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229.99999999999955" y="472.8571428571429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-24" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Potensi kesalahan implementasi kriptografi melemahkan keamanan.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="450" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.99999999999955" y="545.7142857142858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-26" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 20px;&quot;&gt;Kurangnya pemahaman parameter keamanan SSC dan OSS (pilih prima, ukuran modulus).&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="531" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Penerapan signcryption SSC–OSS untuk menjamin kerahasiaan dan autentikasi pesan digital&lt;/font&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="393.5" width="270" height="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-28" target="MayKHuwfd18RUUiYo5_4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;Studi Literatur&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-232.5" y="1170" width="205" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-30" target="MayKHuwfd18RUUiYo5_4-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-30" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Perancangan Skema Signcryption&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="1300" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-31" target="MayKHuwfd18RUUiYo5_4-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-31" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Implementasi Prototipe&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-252.5" y="1470" width="245" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MayKHuwfd18RUUiYo5_4-33" target="MayKHuwfd18RUUiYo5_4-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Pengujian dan Evaluasi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1630" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MayKHuwfd18RUUiYo5_4-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Dokumentasi dan Diseminasi&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-218.75" y="1780" width="177.5" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
