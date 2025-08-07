@@ -168,7 +168,7 @@
         <mxCell id="dec-step1" value="1. Open Tab: Decryption &amp; Verification&#xa;2. Load Keys:&#xa;   - OSS Public Key (for verification)&#xa;   - SS Private Key (for decryption)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="decrypt-swim" vertex="1">
           <mxGeometry x="20" y="50" width="500" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dec-step2" value="3. Paste JSON ciphertext in the box&#xa;Enter Ciphertext" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" parent="decrypt-swim" vertex="1">
+        <mxCell id="dec-step2" value="3. Paste JSON ciphertext&amp;nbsp;&lt;div&gt;in the boxEnter Ciphertext&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" parent="decrypt-swim" vertex="1">
           <mxGeometry x="175" y="150" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dec-arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="decrypt-swim" source="dec-step1" target="dec-step2" edge="1">
