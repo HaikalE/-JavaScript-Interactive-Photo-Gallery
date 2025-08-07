@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="2">
   <diagram name="Page-1" id="9DlDcyRQplSQg95HkK21">
     <mxGraphModel dx="1275" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #fdfcfc)" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="3wn4SR09NtwA5paJrEXe-6" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="350" y="330" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-12" value="&amp;nbsp;í ½í»  Preprocessing &amp;amp; Transformation&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=none;strokeColor=light-dark(#000000,transparent);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-12" value="&amp;nbsp;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Preprocessing &amp;amp; Transformation&amp;nbsp; &amp;nbsp; &amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=none;strokeColor=light-dark(#000000,transparent);" parent="1" vertex="1">
           <mxGeometry x="375" y="345" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3wn4SR09NtwA5paJrEXe-13" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- Set index as datetime &lt;br&gt;&lt;/p&gt;&lt;p&gt;- Apply log1p transformation&lt;/p&gt;&lt;p&gt;- Check stationarity (ADF test)&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=none;strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
@@ -39,7 +39,7 @@
         <mxCell id="3wn4SR09NtwA5paJrEXe-17" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);gradientColor=none;fillColor=light-dark(#FFFFFF,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="341" y="540" width="200" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-18" value="í ½í´ Model Selection Engine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-18" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Model Selection Engine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="366" y="555" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3wn4SR09NtwA5paJrEXe-19" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;â†’ Grid Search ARIMA (p, d, q)&lt;br&gt;&lt;/p&gt;&lt;p&gt;â†’ Fit ETS (damped trend or simple)&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=none;" parent="1" vertex="1">
@@ -56,7 +56,7 @@
         <mxCell id="3wn4SR09NtwA5paJrEXe-23" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="331" y="721" width="217" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-24" value="í ½í³ˆ Model Evaluation on Testing Set&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-24" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Model Evaluation on Testing Set&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="374.5" y="736" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3wn4SR09NtwA5paJrEXe-25" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;â†’ Data split (80% train / 20% test)&lt;br&gt;&lt;/p&gt;&lt;p&gt;â†’ Forecasting (ARIMA &amp;amp; ETS)&lt;br&gt;&lt;/p&gt;&lt;p&gt;â†’ Metrics: MAE, RMSE, MAPE (%)&amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,transparent);" parent="1" vertex="1">
@@ -79,7 +79,7 @@
         <mxCell id="3wn4SR09NtwA5paJrEXe-63" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="603" y="330" width="210" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-64" value="í ½í³Š Visualization Output" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-64" value="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Visualization Output" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="628" y="345" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3wn4SR09NtwA5paJrEXe-65" value="&lt;p data-pm-slice=&quot;0 0 []&quot;&gt;- Forecast vs Actual Line Chart &lt;/p&gt;&lt;p&gt;- Table: Model Comparison Metrics&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,transparent);" parent="1" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="3wn4SR09NtwA5paJrEXe-68" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="597" y="491" width="220" height="177" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-69" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;í ½í´® Future Forecasting (User-defined)&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-69" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Future Forecasting (User-defined)&amp;nbsp;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="642.5" y="504" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3wn4SR09NtwA5paJrEXe-70" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;- Predict n-years ahead (1â€“10)&lt;/p&gt;&lt;p&gt;- Evaluate both models on full data&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Select best model based on AIC &lt;/p&gt;&lt;p&gt;- Plot &amp;amp; Table of future values&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,transparent);" parent="1" vertex="1">
@@ -103,11 +103,113 @@
         <mxCell id="3wn4SR09NtwA5paJrEXe-71" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="610" y="692" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-72" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;í ¼í¼ Web Application UI&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-72" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Web Application UI&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" parent="1" vertex="1">
           <mxGeometry x="640" y="706" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3wn4SR09NtwA5paJrEXe-73" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Tabs: &lt;br&gt;&lt;/p&gt;&lt;p&gt;í ½í´¬ Model Comparison Analysis&lt;br&gt;&lt;/p&gt;&lt;p&gt;í ½í´® Future Prediction&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,transparent);" parent="1" vertex="1">
+        <mxCell id="3wn4SR09NtwA5paJrEXe-73" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;Tabs: &lt;br&gt;&lt;/p&gt;&lt;p&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Model Comparison Analysis&lt;br&gt;&lt;/p&gt;&lt;p&gt;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Future Prediction&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;glass=0;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,transparent);" parent="1" vertex="1">
           <mxGeometry x="620" y="745" width="170" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3KnhYA4_dTGABzMUOIqK" name="Page-2">
+    <mxGraphModel dx="1403" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="APPLICATION WORKFLOW DIAGRAM: SecureSign v1.0 (Single User)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="10" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="single-note" value="NOTE: This is a single user application - one user can act as both Sender and Receiver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="1100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="setup-box" value="PHASE 1: INITIAL SETUP (Key Setup)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=top;spacingTop=5;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="100" width="1100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="setup-text" value="1. Open Tab: Key Management&#xa;2. Click Generate OSS Keys (for digital signature)&#xa;3. Click Generate SS Keys (for encryption)&#xa;4. Save all key files (2 Public + 2 Private = 4 files total)&#xa;5. If communicating with others, exchange public keys" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=20;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="70" y="130" width="1050" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="encrypt-swim" value="PHASE 2: ENCRYPTION &amp; DIGITAL SIGNATURE MODE" style="swimlane;fontStyle=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="250" width="550" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="enc-step1" value="1. Open Tab: Encryption &amp; Digital Signature&#xa;2. Load Keys:&#xa;   - OSS Private Key (for digital signature)&#xa;   - SS Public Key (for encryption)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="encrypt-swim" vertex="1">
+          <mxGeometry x="20" y="50" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enc-step2" value="3. Write message in the box&#xa;Enter Your Message" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffffff;strokeColor=#000000;" parent="encrypt-swim" vertex="1">
+          <mxGeometry x="175" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enc-arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="encrypt-swim" source="enc-step1" target="enc-step2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="140" as="sourcePoint" />
+            <mxPoint x="275" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enc-step3" value="4. Click Button&#xa;SIGN &amp; ENCRYPT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;shadow=1;" parent="encrypt-swim" vertex="1">
+          <mxGeometry x="175" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enc-arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="encrypt-swim" source="enc-step2" target="enc-step3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="220" as="sourcePoint" />
+            <mxPoint x="275" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="enc-result" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;5. JSON OUTPUT:&lt;br&gt;{&lt;br&gt;  encrypted_message&lt;br&gt;  message_hash&lt;br&gt;  s1&lt;br&gt;  s2&lt;br&gt;}&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Copy this JSON to send" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;fontSize=10;" parent="encrypt-swim" vertex="1">
+          <mxGeometry x="25" y="330" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="enc-arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="encrypt-swim" source="enc-step3" target="enc-result" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="310" as="sourcePoint" />
+            <mxPoint x="275" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="decrypt-swim" value="PHASE 3: DECRYPTION &amp; VERIFICATION MODE" style="swimlane;fontStyle=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="600" y="250" width="550" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-step1" value="1. Open Tab: Decryption &amp; Verification&#xa;2. Load Keys:&#xa;   - OSS Public Key (for verification)&#xa;   - SS Private Key (for decryption)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="decrypt-swim" vertex="1">
+          <mxGeometry x="20" y="50" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-step2" value="3. Paste JSON ciphertext in the box&#xa;Enter Ciphertext" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;" parent="decrypt-swim" vertex="1">
+          <mxGeometry x="175" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-arrow1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="decrypt-swim" source="dec-step1" target="dec-step2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="140" as="sourcePoint" />
+            <mxPoint x="275" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-step3" value="4. Click Button&#xa;DECRYPT &amp; VERIFY" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;shadow=1;" parent="decrypt-swim" vertex="1">
+          <mxGeometry x="175" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-arrow2" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="decrypt-swim" source="dec-step2" target="dec-step3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="220" as="sourcePoint" />
+            <mxPoint x="275" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dec-result" value="5. RESULTS:&lt;br&gt;- Digital Signature Verification Status:&lt;br&gt;  VALID (if authentic)&lt;br&gt;  INVALID (if modified)&lt;br&gt;- Original Message:&lt;br&gt;  [Decrypted message text]" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="decrypt-swim" vertex="1">
+          <mxGeometry x="100" y="330" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-arrow3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="decrypt-swim" source="dec-step3" target="dec-result" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="310" as="sourcePoint" />
+            <mxPoint x="275" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="comm-arrow" value="Send JSON Output&#xa;(via email, chat, etc.)" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;strokeWidth=3;strokeColor=#ff6666;fontSize=12;fontStyle=1;" parent="1" source="enc-result" target="dec-step2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="635" as="sourcePoint" />
+            <mxPoint x="775" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="635" />
+              <mxPoint x="600" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="summary" value="WORKFLOW SUMMARY:&#xa;Key Setup â†’ Encryption Mode (Generates JSON) â†’ Transfer JSON â†’ Decryption Mode (Verify &amp; Read Message)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f0f0f0;strokeColor=#666666;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="730" width="1100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="json-info" value="JSON OUTPUT FORMAT EXPLANATION:&#xa;- encrypted_message: Encrypted message (Base64 encoded)&#xa;- message_hash: Hash of original message for verification&#xa;- s1, s2: Digital signature components (OSS signature)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="50" y="800" width="1100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
