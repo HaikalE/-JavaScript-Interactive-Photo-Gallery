@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="d5Un_djH0mLvjflrznP6">
-    <mxGraphModel>
+    <mxGraphModel dx="1403" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="threat-class" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Threat&lt;/b&gt;&lt;br&gt;&lt;i&gt;(Ancaman)&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="threat-details" value="&lt;div style=&quot;text-align: left; padding-left: 4px;&quot;&gt;&lt;b&gt;Atribut (Kasus BSI):&lt;/b&gt;&lt;br&gt;- pelakuAncaman: Grup LockBit 3.0&lt;br&gt;- tipe: Eksternal (RaaS)&lt;br&gt;- motivasi: Finansial (Tebusan)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Grup LockBit 3.0 mengincar BSI sebagai&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; padding-left: 4px;&quot;&gt;&lt;i&gt;target bernilai tinggi.&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="threat-class" vertex="1">
+          <mxGeometry y="30" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="attack-class" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Attack&lt;/b&gt;&lt;br&gt;&lt;i&gt;(Serangan)&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="380" y="160" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="attack-details" value="&lt;div style=&quot;text-align: left; padding-left: 4px;&quot;&gt;&lt;b&gt;Atribut (Kasus BSI):&lt;/b&gt;&lt;br&gt;- tipeSerangan: Ransomware&lt;br&gt;- metode: Eksfiltrasi &amp;amp; Enkripsi Data&lt;br&gt;- waktuMulai: 8 Mei 2023&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Menyusup ke sistem, mencuri 1.5 TB data,&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; padding-left: 4px;&quot;&gt;&lt;i&gt;lalu mengunci server BSI.&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="attack-class" vertex="1">
+          <mxGeometry y="30" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="incident-class" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Incident&lt;/b&gt;&lt;br&gt;&lt;i&gt;(Insiden)&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="160" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="incident-details" value="&lt;div style=&quot;text-align: left; padding-left: 4px;&quot;&gt;&lt;b&gt;Atribut (Kasus BSI):&lt;/b&gt;&lt;br&gt;- deskripsiDampak: Layanan lumpuh &amp;amp; data bocor&lt;br&gt;- tingkatKeparahan: Kritis&lt;br&gt;- objekTerdampak: 15 Juta Nasabah&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;ATM &amp;amp; BSI Mobile error, data nasabah dipublikasikan di dark web.&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="incident-class" vertex="1">
+          <mxGeometry y="30" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1" value="diwujudkan menjadi" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" source="threat-class" target="attack-class" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="235" as="sourcePoint" />
+            <mxPoint x="370" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-2" value="menyebabkan" style="edgeStyle=entityRelationEdgeStyle;endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" source="attack-class" target="incident-class" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="235" as="sourcePoint" />
+            <mxPoint x="710" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="think-threat" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Potensi bahaya / kemungkinan gangguan.&lt;br&gt;&lt;b&gt;Think: &quot;Ada kemungkinan bahaya.&quot;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="60" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="think-attack" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Ancaman yang menjadi aksi nyata.&lt;br&gt;&lt;b&gt;Think: &quot;Ancaman itu diwujudkan.&quot;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="think-incident" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Dampak nyata pada sistem akibat serangan.&lt;br&gt;&lt;b&gt;Think: &quot;Efeknya dirasakan.&quot;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="740" y="320" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="&lt;h2&gt;Analisis Kasus BSI: Hubungan Threat, Attack, &amp;amp; Incident&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="60" width="480" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
