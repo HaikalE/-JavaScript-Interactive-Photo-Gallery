@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3" pages="3">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -376,6 +376,164 @@
           <mxGeometry x="-0.0169" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hze8fHgsoGqsfAM9vZj_" name="Page-3">
+    <mxGraphModel dx="2516" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="table-border" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#a0a0a0;resizeHeight=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="2100" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="header-0" value="Perspektif" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-1" value="What (Data)" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="220" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-2" value="How (Function/Process)" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-3" value="Where (Network/Location)" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="860" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-4" value="Who (People/Roles)" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1180" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-5" value="When (Time/Event)" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1500" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-6" value="Why (Motivation/Goals)" style="text;strokeColor=none;fillColor=#dae8fc;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1820" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="row-header-1" value="&lt;b&gt;Planner&lt;/b&gt;&lt;br&gt;(Cakupan Kontekstual)" style="text;strokeColor=none;fillColor=#e1d5e7;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="40" y="100" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-1-1" value="Daftar inventaris data utama seperti: &lt;b&gt;Data Akademik, Data Pengguna, Data Interaksi Pembelajaran&lt;/b&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-1-2" value="Daftar proses bisnis utama seperti: &lt;b&gt;Pembelajaran Digital, Administrasi Akademik, Penilaian Mahasiswa&lt;/b&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-1-3" value="Daftar lokasi operasional: &lt;b&gt;Lingkungan ITB, Platform Online/Internet&lt;/b&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-1-4" value="Daftar unit organisasi utama: &lt;b&gt;Staf Akademik, Mahasiswa, Administrator Sistem&lt;/b&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-1-5" value="Daftar siklus bisnis utama: &lt;b&gt;Siklus Semester, Siklus Evaluasi Belajar&lt;/b&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-1-6" value="Daftar tujuan utama bisnis: &lt;b&gt;Meningkatkan Kualitas Pendidikan, Digitalisasi Proses Belajar&lt;/b&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="100" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="row-header-2" value="&lt;b&gt;Owner&lt;/b&gt;&lt;br&gt;(Model Bisnis Konseptual)" style="text;strokeColor=none;fillColor=#e1d5e7;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-2-1" value="&lt;b&gt;Model Data Konseptual&lt;/b&gt; yang mendefinisikan entitas bisnis seperti &lt;i&gt;User, Course, Assignment, Grade&lt;/i&gt;, dan hubungan antar entitas tersebut." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-2-2" value="&lt;b&gt;Model Proses Bisnis&lt;/b&gt; yang menggambarkan alur kerja, misalnya Dosen mengunggah materi, lalu Mahasiswa mengakses materi tersebut." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-2-3" value="&lt;b&gt;Model Logistik Bisnis&lt;/b&gt; yang memetakan lokasi sistem utama seperti &lt;i&gt;Sistem Akademik Terpusat (SIX)&lt;/i&gt; dan &lt;i&gt;Sistem HR&lt;/i&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-2-4" value="&lt;b&gt;Model Alur Kerja&lt;/b&gt; yang mendefinisikan peran dan tanggung jawab seperti &lt;i&gt;Dosen (Pengajar), Mahasiswa (Peserta), Admin (Pengelola)&lt;/i&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-2-5" value="&lt;b&gt;Jadwal Induk&lt;/b&gt; yang mencakup &lt;i&gt;Jadwal Perkuliahan per Semester, Deadline Pengumpulan Tugas, Periode Ujian Tengah &amp;amp; Akhir Semester&lt;/i&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-2-6" value="&lt;b&gt;Rencana Bisnis&lt;/b&gt; dengan sasaran seperti &amp;quot;Memfasilitasi Pembelajaran Jarak Jauh (PJJ) yang efektif&amp;quot; dan strategi &amp;quot;Mengintegrasikan LMS dengan sistem akademik&amp;quot;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="row-header-3" value="&lt;b&gt;Designer&lt;/b&gt;&lt;br&gt;(Model Sistem Logikal)" style="text;strokeColor=none;fillColor=#e1d5e7;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-3-1" value="&lt;b&gt;Model Data Logikal (ERD)&lt;/b&gt; yang merinci atribut dan relasi antar tabel, contohnya &lt;i&gt;tbl_User (UserID, Name, RoleID)&lt;/i&gt; memiliki relasi dengan &lt;i&gt;tbl_Enrollment&lt;/i&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="340" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-3-2" value="&lt;b&gt;Arsitektur Aplikasi&lt;/b&gt; yang membagi sistem menjadi modul-modul fungsional seperti &lt;i&gt;Modul Konten, Modul Ujian, Modul Forum, Modul Sinkronisasi Data&lt;/i&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="340" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-3-3" value="&lt;b&gt;Arsitektur Sistem Terdistribusi&lt;/b&gt; yang mendefinisikan arsitektur berbasis web (&lt;i&gt;Client-Server&lt;/i&gt;) dan &lt;i&gt;API Gateway&lt;/i&gt; untuk integrasi dengan SIX &amp;amp; HRIS." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="340" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-3-4" value="&lt;b&gt;Arsitektur Antarmuka Manusia (UI/UX)&lt;/b&gt; yang merancang &lt;i&gt;Dashboard Dosen, Tampilan Course Mahasiswa, dan Portal Administrator&lt;/i&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="340" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-3-5" value="&lt;b&gt;Struktur Proses&lt;/b&gt; yang mendefinisikan pemicu (&lt;i&gt;trigger&lt;/i&gt;) dan kejadian (&lt;i&gt;event&lt;/i&gt;), misalnya notifikasi otomatis saat tugas baru diunggah." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="340" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-3-6" value="&lt;b&gt;Model Aturan Bisnis&lt;/b&gt; yang berisi aturan-aturan spesifik, contohnya &amp;quot;Seorang mahasiswa hanya bisa mengumpulkan tugas satu kali.&amp;quot;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="340" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="row-header-4" value="&lt;b&gt;Builder&lt;/b&gt;&lt;br&gt;(Model Teknologi Fisikal)" style="text;strokeColor=none;fillColor=#e1d5e7;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="460" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-4-1" value="&lt;b&gt;Model Data Fisikal&lt;/b&gt; yang mendefinisikan tipe data dan batasan kolom, seperti &lt;i&gt;UserID (INT, PRIMARY KEY), Name (VARCHAR(255))&lt;/i&gt;. Menggunakan database &lt;b&gt;MySQL/PostgreSQL&lt;/b&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="460" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-4-2" value="&lt;b&gt;Desain Sistem&lt;/b&gt; yang menentukan &lt;i&gt;framework&lt;/i&gt; (misalnya &lt;b&gt;Laravel/React&lt;/b&gt;) dan bahasa pemrograman (&lt;b&gt;PHP/JavaScript&lt;/b&gt;) yang akan digunakan." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="460" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-4-3" value="&lt;b&gt;Arsitektur Teknologi&lt;/b&gt; yang menentukan spesifikasi server (&lt;i&gt;Cloud VM di data center domestik&lt;/i&gt;), &lt;i&gt;load balancer&lt;/i&gt;, dan konfigurasi &lt;i&gt;firewall&lt;/i&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="460" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-4-4" value="&lt;b&gt;Arsitektur Presentasi&lt;/b&gt; yang mengimplementasikan keamanan seperti &lt;b&gt;SSO dengan ITB Account&lt;/b&gt; dan &lt;b&gt;Role-Based Access Control (RBAC)&lt;/b&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="460" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-4-5" value="&lt;b&gt;Struktur Kontrol&lt;/b&gt; yang menggunakan penjadwal seperti &lt;b&gt;Cron Job&lt;/b&gt; untuk sinkronisasi data harian dan sistem antrian (&lt;i&gt;queue&lt;/i&gt;) untuk pengiriman notifikasi." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="460" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-4-6" value="&lt;b&gt;Desain Aturan&lt;/b&gt; yang diimplementasikan dalam kode, misalnya &lt;code&gt;IF submission_count &amp;gt; 0 THEN block_submission()&lt;/code&gt;." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="460" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="row-header-5" value="&lt;b&gt;Implementer&lt;/b&gt;&lt;br&gt;(Representasi Detail)" style="text;strokeColor=none;fillColor=#e1d5e7;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="580" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-5-1" value="&lt;b&gt;Definisi Data (DDL)&lt;/b&gt; berupa kode SQL untuk membuat tabel: &lt;code&gt;CREATE TABLE Users (...)&lt;/code&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-5-2" value="&lt;b&gt;Kode Program&lt;/b&gt; dalam file seperti &lt;code&gt;CourseController.php&lt;/code&gt; yang berisi fungsi &lt;code&gt;uploadAssignment()&lt;/code&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-5-3" value="&lt;b&gt;Konfigurasi Jaringan&lt;/b&gt; seperti file &lt;code&gt;nginx.conf&lt;/code&gt; atau alamat IP dan &lt;i&gt;subnet mask&lt;/i&gt; server." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-5-4" value="&lt;b&gt;Implementasi Keamanan&lt;/b&gt; berupa kode untuk otentikasi dan otorisasi, serta tabel &lt;code&gt;roles&lt;/code&gt; dan &lt;code&gt;permissions&lt;/code&gt; di database." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-5-5" value="&lt;b&gt;Definisi Waktu&lt;/b&gt; berupa perintah cron job spesifik: &lt;code&gt;0 2 * * * /path/to/sync_script.sh&lt;/code&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-5-6" value="&lt;b&gt;Spesifikasi Aturan&lt;/b&gt; dalam kode validasi aplikasi: &lt;code&gt;validate([&#39;grade&#39; =&amp;gt; &#39;required|numeric|min:0|max:100&#39;])&lt;/code&gt;." style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="580" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="row-header-6" value="&lt;b&gt;User&lt;/b&gt;&lt;br&gt;(Perusahaan Fungsional)" style="text;strokeColor=none;fillColor=#e1d5e7;html=1;whiteSpace=wrap;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="700" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-6-1" value="&lt;b&gt;Data aktual&lt;/b&gt; yang ada di dalam sistem Edunex saat sedang digunakan, seperti nama mahasiswa, materi kuliah, dan nilai tugas." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="220" y="700" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-6-2" value="&lt;b&gt;Fungsi sistem&lt;/b&gt; yang sedang berjalan dan digunakan oleh pengguna, seperti fitur &lt;i&gt;upload&lt;/i&gt; file atau &lt;i&gt;submit&lt;/i&gt; kuis." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="700" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-6-3" value="&lt;b&gt;Platform Edunex&lt;/b&gt; yang dapat diakses oleh pengguna melalui jaringan internet ITB atau publik." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="860" y="700" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-6-4" value="&lt;b&gt;Dosen, Mahasiswa, dan Admin&lt;/b&gt; yang sedang login dan berinteraksi dengan sistem Edunex." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="700" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-6-5" value="&lt;b&gt;Sistem Edunex&lt;/b&gt; yang beroperasi secara &lt;i&gt;real-time&lt;/i&gt; sesuai dengan jadwal akademik yang berlaku." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="700" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-6-6" value="&lt;b&gt;Tujuan dan strategi&lt;/b&gt; yang sedang dijalankan melalui operasional harian sistem Edunex." style="text;strokeColor=none;fillColor=#f5f5f5;html=1;whiteSpace=wrap;verticalAlign=middle;align=left;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="700" width="320" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
