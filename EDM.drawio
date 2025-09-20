@@ -1,0 +1,231 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
+    <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Enterprise Data Model (EDM) - Sistem Edunex ITB (Conceptual View)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="10" width="1720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-user" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1efff;strokeColor=#99ccff;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-course" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1efff;strokeColor=#99ccff;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="70" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-content" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1efff;strokeColor=#99ccff;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="70" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-assessment" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1efff;strokeColor=#99ccff;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="940" y="70" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-comm" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1efff;strokeColor=#99ccff;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="70" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-research" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1efff;strokeColor=#99ccff;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="70" width="280" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="title-user" value="User Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-course" value="Course Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-content" value="Content Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-assessment" value="Assessment Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-comm" value="Communication" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="title-research" value="Research Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user" value="User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="role" value="Role" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="100" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enrollment" value="User Course Enrollment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="100" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="course" value="Course" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="400" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="module" value="Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="submodule" value="Submodule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="content" value="Content" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="700" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="videoconf" value="Video Conference" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="700" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="assignment" value="Assignment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="exam" value="Exam" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="question" value="Question" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grade" value="Grade" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="discussion" value="Discussion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance" value="Attendance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="workgroup" value="Workgroup" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="workspace" value="Workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="project" value="Project" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-user-role" value="has" style="html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERoneToMany;endArrow=ERzeroToMany;" parent="1" source="user" target="role" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="220" as="sourcePoint" />
+            <mxPoint x="180" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-user-enroll" value="enrolls in" style="html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;endArrow=ERmandOne;" parent="1" source="role" target="enrollment" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="330" as="sourcePoint" />
+            <mxPoint x="180" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-course-module" value="contains" style="html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;endArrow=ERmandOne;" parent="1" source="course" target="module" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-module-submodule" value="contains" style="html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;endArrow=ERmandOne;" parent="1" source="module" target="submodule" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="440" as="sourcePoint" />
+            <mxPoint x="480" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-enroll-course" value="links to" style="html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="enrollment" target="course" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="320" as="sourcePoint" />
+            <mxPoint x="390" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="400" />
+              <mxPoint x="300" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-content-course" value="located in" style="html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="content" target="course" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="210" as="sourcePoint" />
+            <mxPoint x="570" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="180" />
+              <mxPoint x="600" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-videoconf-course" value="scheduled for" style="html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="videoconf" target="course" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="380" as="sourcePoint" />
+            <mxPoint x="570" y="305" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="400" />
+              <mxPoint x="600" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-assignment-course" value="belongs to" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="assignment" target="course" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="210" as="sourcePoint" />
+            <mxPoint x="570" y="275" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="180" />
+              <mxPoint x="970" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-exam-question" value="uses" style="html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;endArrow=ERzeroToMany;" parent="1" source="exam" target="question" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="330" as="sourcePoint" />
+            <mxPoint x="1080" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-grade-assignment" value="grades" style="html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="grade" target="assignment" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="470" as="sourcePoint" />
+            <mxPoint x="1080" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="450" />
+              <mxPoint x="1120" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-grade-user" value="assigned to" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="grade" target="user" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="510" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="560" />
+              <mxPoint x="80" y="560" />
+              <mxPoint x="80" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-discussion-course" value="part of" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="discussion" target="course" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="240" as="sourcePoint" />
+            <mxPoint x="570" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="180" />
+              <mxPoint x="1280" y="240" />
+              <mxPoint x="670" y="240" />
+              <mxPoint x="670" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-attendance-user" value="records" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;endArrow=ERzeroToMany;" parent="1" source="attendance" target="user" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="320" as="sourcePoint" />
+            <mxPoint x="270" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1300" y="250" />
+              <mxPoint x="360" y="250" />
+              <mxPoint x="360" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-project-user" value="involves" style="html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERoneToMany;endArrow=ERzeroToMany;edgeStyle=orthogonalEdgeStyle;" parent="1" source="project" target="user" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="210" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1560" y="290" />
+              <mxPoint x="1560" y="130" />
+              <mxPoint x="180" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-workspace-project" value="contains" style="html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;endArrow=ERmandOne;" parent="1" source="workspace" target="project" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="220" as="sourcePoint" />
+            <mxPoint x="1680" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
