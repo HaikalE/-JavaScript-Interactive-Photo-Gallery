@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5" pages="10">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1546,6 +1546,47 @@
             <mxPoint x="870" y="600" as="sourcePoint" />
             <mxPoint x="870" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="B9U4e5OoiNkoVm_ztesB" name="Page-10">
+    <mxGraphModel dx="1132" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="User &amp; Access Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Course &amp; Content Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="350" y="200" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Assessment &amp; Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="600" y="200" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="Communication &amp; Collaboration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="850" y="200" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="Research Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="475" y="380" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c1" target="c2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-label" value="enrolls in" style="edgeLabel;html=1;align=center;verticalAlign=middle;" parent="r1" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2" target="c3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-label" value="contains" style="edgeLabel;html=1;align=center;verticalAlign=middle;" parent="r2" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c2" target="c4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="c1" target="c5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
