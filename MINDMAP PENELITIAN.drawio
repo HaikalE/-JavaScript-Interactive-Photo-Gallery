@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="DTuAUJo39RcuMW1Bryb0">
+    <mxGraphModel dx="2058" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z4-central-topic" value="AI &amp;amp; ML dalam&amp;nbsp;&lt;div&gt;Rekrutmen&lt;br&gt;&lt;b&gt;(2015-2024)&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=#ffffff;strokeWidth=2;fontColor=#ffffff;fontSize=18;fontStyle=0;fontFamily=Arial;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="900" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-1" value="&lt;b&gt;Teknologi &amp;amp;&lt;br&gt;Pendekatan ML&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8AC59;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#F8AC59;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-1-item-1" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Supervised Learning&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Menggunakan model klasifikasi dan analisis regresi untuk memprediksi kandidat yang cocok&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Salah satu contohnya adalah SVM (Support Vector Machine) yang mencapai tingkat akurasi 87%&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Model ini bersifat statis atau dapat diperbarui, dengan fokus pada pemanfaatan data yang sudah ada&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDE8D3;strokeColor=#F8AC59;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="535" width="180" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-1-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#F8AC59;rounded=1;" edge="1" parent="1" source="z4-cat-1" target="z4-cat-1-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-1-item-2" value="&lt;b&gt;Contextual Bandit&lt;/b&gt;&lt;br&gt;&lt;div&gt;- Menggunakan algoritma UCB yang lebih dinamis dan adaptif&lt;/div&gt;&lt;div&gt;- Mampu belajar secara terus-menerus dari setiap keputusan rekrutmen&lt;/div&gt;&lt;div&gt;- Terbukti menghasilkan keberagaman kandidat yang lebih baik&lt;/div&gt;&lt;div&gt;- Memberikan rekomendasi yang menyesuaikan diri dengan perubahan kondisi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDE8D3;strokeColor=#F8AC59;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="760" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-1-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#F8AC59;rounded=1;" edge="1" parent="1" source="z4-cat-1" target="z4-cat-1-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-1-item-3" value="&lt;div&gt;&lt;b&gt;NLP&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Memindai dan menganalisis resume secara otomatis&lt;/div&gt;&lt;div&gt;- Mengekstrak keterampilan dan pengalaman dari dokumen&lt;/div&gt;&lt;div&gt;- Mencocokkan deskripsi pekerjaan dengan profil kandidat&lt;/div&gt;&lt;div&gt;- Melakukan analisis makna dan mengoptimalkan kata kunci&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDE8D3;strokeColor=#F8AC59;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-1-3" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#F8AC59;rounded=1;" edge="1" parent="1" source="z4-cat-1" target="z4-cat-1-item-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-2" value="&lt;b&gt;Manfaat &amp;amp;&lt;br&gt;Peluang&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1C84C6;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="550" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#1C84C6;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-2-item-1" value="&lt;b&gt;Efisiensi Operasional&lt;/b&gt;&lt;br&gt;&lt;div&gt;- Penelitian Horton menunjukkan peningkatan tingkat perekrutan sebesar 20%&lt;/div&gt;&lt;div&gt;- Proses penyaringan CV menjadi otomatis, menghemat waktu rekruter&lt;/div&gt;&lt;div&gt;- Mengurangi waktu yang dibutuhkan untuk mengisi posisi kosong&lt;/div&gt;&lt;div&gt;- Menurunkan biaya operasional dan tersedia 24/7&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E6F4;strokeColor=#1C84C6;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="380" width="180" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-2-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#1C84C6;rounded=1;" edge="1" parent="1" source="z4-cat-2" target="z4-cat-2-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-2-item-2" value="&lt;b&gt;Pengurangan Bias&lt;/b&gt;&lt;br&gt;(Al-Alawi, 2021)&lt;br&gt;&lt;div&gt;- Mengurangi prasangka bawah sadar yang sering terjadi pada rekruter manusia&lt;/div&gt;&lt;div&gt;- Memberikan penilaian yang lebih objektif berdasarkan data&lt;/div&gt;&lt;div&gt;- Menciptakan evaluasi yang terstandar untuk semua kandidat&lt;/div&gt;&lt;div&gt;- Keputusan diambil berdasarkan data, bukan perasaan atau intuisi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E6F4;strokeColor=#1C84C6;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="600" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-2-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#1C84C6;rounded=1;" edge="1" parent="1" source="z4-cat-2" target="z4-cat-2-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-2-item-3" value="&lt;b&gt;Humanistic Recruitment&lt;/b&gt;&lt;br&gt;(Rąb-Kettler, 2019)&lt;br&gt;• Reduce recruiter burnout&lt;br&gt;• Focus on value-added tasks&lt;br&gt;• Career guidance focus&lt;br&gt;• Strategic HR role" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D2E6F4;strokeColor=#1C84C6;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="250" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-2-3" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#1C84C6;rounded=1;" edge="1" parent="1" source="z4-cat-2" target="z4-cat-2-item-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-3" value="&lt;b&gt;Implementasi &amp;amp;&lt;br&gt;Metodologi&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23C6C8;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-3" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#23C6C8;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-3-item-1" value="&lt;b&gt;Field Experiment&lt;/b&gt;&lt;br&gt;(Horton, 2015)&lt;br&gt;&lt;div&gt;- Horton (2015) membuktikan bahwa rekomendasi algoritma meningkatkan tingkat perekrutan 20%&lt;/div&gt;&lt;div&gt;- Sangat efektif terutama untuk posisi-posisi teknis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D3F4F4;strokeColor=#23C6C8;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1140" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-3-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#23C6C8;rounded=1;" edge="1" parent="1" source="z4-cat-3" target="z4-cat-3-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-3-item-2" value="&lt;b&gt;ML Models&lt;/b&gt;&lt;br&gt;&lt;div&gt;- &lt;b&gt;Sistem JobFit&lt;/b&gt;&amp;nbsp;(Appadoo, 2020): Menggabungkan 6 model ML untuk memberikan skor kandidat yang menyeluruh&lt;/div&gt;&lt;div&gt;- &lt;b&gt;SVM Classifier&lt;/b&gt;&amp;nbsp;(Boonchob, 2022): Mencapai akurasi 87% dalam menyortir kandidat secara otomatis&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D3F4F4;strokeColor=#23C6C8;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="970" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-3-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#23C6C8;rounded=1;" edge="1" parent="1" source="z4-cat-3" target="z4-cat-3-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-3-item-3" value="&lt;b&gt;Clustering &amp;amp; Analytics&lt;/b&gt;&lt;br&gt;(Shet &amp;amp; Nair, 2023)&lt;br&gt;&lt;div&gt;- Shet &amp;amp; Nair (2023) menggunakan algoritma PAM untuk membuat profil kandidat berlapis&lt;/div&gt;&lt;div&gt;- Model Quality of Hire berdasarkan teori kesesuaian Person-Environment&lt;/div&gt;&lt;div&gt;- Mempertimbangkan berbagai aspek kesesuaian kandidat&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D3F4F4;strokeColor=#23C6C8;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1300" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-3-3" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#23C6C8;rounded=1;" edge="1" parent="1" source="z4-cat-3" target="z4-cat-3-item-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-4" value="&lt;b&gt;Regulasi &amp;amp;&lt;br&gt;Governance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#607D8B;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-4" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#607D8B;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-4-item-1" value="&lt;b&gt;5 Key Governance Aspects&lt;/b&gt;&lt;br&gt;(Jibril &amp;amp; Florentina, 2024)&lt;br&gt;&lt;div&gt;1. Mendefinisikan alat AI dengan jelas&lt;/div&gt;&lt;div&gt;2. Menentukan lingkup penggunaan (membantu atau menggantikan)&lt;/div&gt;&lt;div&gt;3. Menetapkan tingkat keterlibatan manusia&lt;/div&gt;&lt;div&gt;4. Menentukan cakupan pekerjaan yang terpengaruh&lt;/div&gt;&lt;div&gt;5. Mengatur langkah-langkah kepatuhan dan audit&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E5E8;strokeColor=#607D8B;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="845" width="200" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-4-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#607D8B;rounded=1;" edge="1" parent="1" source="z4-cat-4" target="z4-cat-4-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-4-item-2" value="&lt;b&gt;Human-AI Collaboration&lt;/b&gt;&lt;br&gt;(Chen, 2023)&lt;br&gt;&lt;div&gt;- AI berperan sebagai alat pendukung keputusan, bukan pengambil keputusan final&lt;/div&gt;&lt;div&gt;- Manusia tetap memiliki kata akhir dalam keputusan perekrutan&lt;/div&gt;&lt;div&gt;- Membutuhkan transparansi dalam cara kerja algoritma&lt;/div&gt;&lt;div&gt;- Menciptakan model kolaboratif yang seimbang&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0E5E8;strokeColor=#607D8B;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1070" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-4-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#607D8B;rounded=1;" edge="1" parent="1" source="z4-cat-4" target="z4-cat-4-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-5" value="&lt;b&gt;Framework &amp;amp;&lt;br&gt;Model Evaluasi&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9B59B6;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-5" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#9B59B6;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-5-item-1" value="&lt;b&gt;HIRE Framework&lt;/b&gt;&lt;br&gt;(Will et al., 2022)&lt;br&gt;• &lt;b&gt;H:&lt;/b&gt; Human vs AI comparison&lt;br&gt;• &lt;b&gt;I:&lt;/b&gt; Inclusion/Diversity metrics&lt;br&gt;• &lt;b&gt;R:&lt;/b&gt; Reputation/Perceptions&lt;br&gt;• &lt;b&gt;E:&lt;/b&gt; Efficiency/Effectiveness" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EADCEE;strokeColor=#9B59B6;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1510" width="200" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-5-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#9B59B6;rounded=1;" edge="1" parent="1" source="z4-cat-5" target="z4-cat-5-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-5-item-2" value="&lt;b&gt;Multi-level Fit Model&lt;/b&gt;&lt;br&gt;• P-J Fit (Person-Job)&lt;br&gt;• P-O Fit (Person-Organization)&lt;br&gt;• P-G Fit (Person-Group)&lt;br&gt;• P-S Fit (Person-Supervisor)&lt;br&gt;• Quality of Hire (QoH)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EADCEE;strokeColor=#9B59B6;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1638" width="180" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-5-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#9B59B6;rounded=1;" edge="1" parent="1" source="z4-cat-5" target="z4-cat-5-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-6" value="&lt;b&gt;Tantangan &amp;amp;&lt;br&gt;Risiko&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ED5565;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1390" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-6" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#ED5565;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-6-item-1" value="&lt;b&gt;8 Key Challenges&lt;/b&gt;&lt;br&gt;(Mashayekhi, 2024)&lt;br&gt;&lt;div&gt;1. Masalah kualitas data yang tidak konsisten&lt;/div&gt;&lt;div&gt;2. Kesulitan dalam menjelaskan keputusan AI&lt;/div&gt;&lt;div&gt;3. Bias dan masalah keadilan dalam algoritma&lt;/div&gt;&lt;div&gt;4. Masalah skalabilitas untuk jutaan kandidat&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCDDE1;strokeColor=#ED5565;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1260" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-6-1" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#ED5565;rounded=1;" edge="1" parent="1" source="z4-cat-6" target="z4-cat-6-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-6-item-2" value="&lt;b&gt;Algorithm Aversion&lt;/b&gt;&lt;br&gt;(Will et al., 2022)&lt;br&gt;&lt;div&gt;- Kandidat sering memiliki persepsi negatif terhadap AI&lt;/div&gt;&lt;div&gt;- Kurangnya kepercayaan dari berbagai pihak&lt;/div&gt;&lt;div&gt;- Kekhawatiran akan hilangnya sentuhan manusiawi&lt;/div&gt;&lt;div&gt;- Masalah transparansi dalam proses keputusan&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCDDE1;strokeColor=#ED5565;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1447.5" width="180" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-6-2" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#ED5565;rounded=1;" edge="1" parent="1" source="z4-cat-6" target="z4-cat-6-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-6-item-3" value="&lt;b&gt;Bias &amp;amp; Privacy Issues&lt;/b&gt;&lt;br&gt;(Javed, 2020)&lt;br&gt;&lt;div&gt;- Data pelatihan yang bias menghasilkan keputusan yang bias&lt;/div&gt;&lt;div&gt;- Diskriminasi algoritmik yang tidak disengaja&lt;/div&gt;&lt;div&gt;- Kepatuhan terhadap GDPR dan regulasi privasi&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- Pelanggaran privasi data kandidat&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FCDDE1;strokeColor=#ED5565;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1654" y="1625" width="180" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-6-3" style="edgeStyle=entityRelationEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#ED5565;rounded=1;" edge="1" parent="1" source="z4-cat-6" target="z4-cat-6-item-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-7" value="&lt;b&gt;Key Research&lt;br&gt;Findings&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1C40F;strokeColor=#ffffff;fontFamily=Arial;fontSize=14;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1340" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-7" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;strokeWidth=3;strokeColor=#F1C40F;rounded=1;" edge="1" parent="1" source="z4-central-topic" target="z4-cat-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-7-item-1" value="&lt;b&gt;Algorithm Performance&lt;/b&gt;&lt;br&gt;&lt;div&gt;- Algoritma UCB meningkatkan keberagaman kandidat (terutama untuk kelompok minoritas)&lt;/div&gt;&lt;div&gt;- Algoritma pembelajaran terawasi justru menurunkan representasi minoritas&lt;/div&gt;&lt;div&gt;- Kedua jenis algoritma mengungguli rekruter manusia dalam hal efisiensi&lt;/div&gt;&lt;div&gt;- Peningkatan 20% dalam tingkat pengisian posisi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF8D0;strokeColor=#F1C40F;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1580" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-7-1" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#F1C40F;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z4-cat-7" target="z4-cat-7-item-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-7-item-2" value="&lt;b&gt;Implementation Status&lt;/b&gt;&lt;br&gt;&lt;div&gt;- Perusahaan teknologi besar menjadi pelopor adopsi&lt;/div&gt;&lt;div&gt;- Biaya implementasi yang tinggi menjadi penghalang&lt;/div&gt;&lt;div&gt;- Tantangan integrasi dengan sistem HR yang sudah ada&lt;/div&gt;&lt;div&gt;- Kesenjangan keterampilan di departemen HR&lt;/div&gt;&lt;div&gt;- Defisit kepercayaan dari berbagai pemangku kepentingan&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF8D0;strokeColor=#F1C40F;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1580" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-7-2" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#F1C40F;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z4-cat-7" target="z4-cat-7-item-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-cat-7-item-3" value="&lt;b&gt;Future Directions&lt;/b&gt;&lt;br&gt;&lt;div&gt;- Analisis interseksionalitas (mempertimbangkan berbagai dimensi keberagaman)&lt;/div&gt;&lt;div&gt;- Objektif OWOJ (One Worker, One Job) untuk distribusi pekerjaan yang adil&lt;/div&gt;&lt;div&gt;- Fokus pada populasi khusus (mahasiswa, disabilitas, migran)&lt;/div&gt;&lt;div&gt;- Pelacakan kinerja karyawan pasca-perekrutan&lt;/div&gt;&lt;div&gt;- Penyelarasan dengan visi dan misi organisasi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF8D0;strokeColor=#F1C40F;fontFamily=Arial;fontSize=12;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="1580" width="190" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="z4-edge-7-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;strokeWidth=2;strokeColor=#F1C40F;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z4-cat-7" target="z4-cat-7-item-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHj1PQM8mcd-5JXszIGW-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;u&gt;MINDMAP PERKEMBANGAN AI DALAM BIDANG REKRUTMEN&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="870" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
