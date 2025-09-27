@@ -2142,7 +2142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tAeB8S2khgMaZ6fd8juZ" name="Page-12">
-    <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="2516" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2186,7 +2186,7 @@
           <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="course-entity" value="Course" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="520" width="220" height="150" as="geometry" />
+          <mxGeometry x="1040" y="630" width="220" height="150" as="geometry" />
         </mxCell>
         <mxCell id="course-attr-1" value="&lt;u&gt;CourseID&lt;/u&gt;: VARCHAR (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="course-entity" vertex="1">
           <mxGeometry y="30" width="220" height="30" as="geometry" />
@@ -2515,8 +2515,13 @@
         <mxCell id="gives-diamond" value="gives" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="line-course-gives" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;entryX=0.81;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" parent="1" source="gives-diamond" target="course-attr-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="line-course-gives" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;edgeStyle=orthogonalEdgeStyle;" parent="1" source="gives-diamond" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="740" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="line-gives-assignment" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;entryX=0.419;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="gives-diamond" target="assign-attr-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2594,9 +2599,7 @@
         <mxCell id="line-course-discussion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;jumpStyle=arc;entryX=0.648;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="facilitates-diamond" target="course-attr-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="820" />
-              <mxPoint x="1240" y="730" />
-              <mxPoint x="1183" y="730" />
+              <mxPoint x="1183" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2610,8 +2613,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1270" y="1050" />
-              <mxPoint x="1270" y="760" />
-              <mxPoint x="1111" y="760" />
+              <mxPoint x="1270" y="830" />
+              <mxPoint x="1111" y="830" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2638,8 +2641,8 @@
         <mxCell id="line-course-sync" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;endFill=1;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="synchronizes-diamond" target="course-entity" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="900" y="790" />
-              <mxPoint x="1150" y="790" />
+              <mxPoint x="900" y="810" />
+              <mxPoint x="1150" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
