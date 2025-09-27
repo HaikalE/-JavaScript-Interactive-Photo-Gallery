@@ -2142,7 +2142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tAeB8S2khgMaZ6fd8juZ" name="Page-12">
-    <mxGraphModel dx="3234" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1887" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2779,7 +2779,7 @@
         <mxCell id="EEZqE9a4fu-5HgrFbz5h-2" value="ISA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="wQbSAfrcOmFfbBo-cbYH-11">
           <mxGeometry x="-10" y="15" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wQbSAfrcOmFfbBo-cbYH-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ER-Model&lt;/h1&gt;&lt;p&gt;Pemodelan hubungan relasi pada case &quot;Edunex&quot;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="wQbSAfrcOmFfbBo-cbYH-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font face=&quot;Garamond&quot;&gt;ER-Model&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Garamond&quot;&gt;Pemodelan hubungan relasi pada case &quot;Edunex&quot;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="140" y="70" width="240" height="190" as="geometry" />
         </mxCell>
       </root>
