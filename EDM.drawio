@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="22">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="23">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -5230,6 +5230,176 @@
         </mxCell>
         <mxCell id="auth_6" value="Cek Pengguna di Tabel `users`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="750" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sbI7E0wDeLZjf4ZmjVLw" name="Page-23">
+    <mxGraphModel dx="1617" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="2300" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swimlane_container" value="Alur Sistem LMS Universitas V1.0" style="fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=16;container=0;strokeColor=default;" parent="1" type="swimlane" vertex="1">
+          <mxGeometry x="40" y="40" width="1100" height="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="course_title_main" value="B. Alur Manajemen Mata Kuliah" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="1100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_2" target="b1_3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_3" target="b1_4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_5" target="b1_6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_6" target="b1_7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_7" target="b1_8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_8" target="b1_9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b2_2" target="b2_3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b2_3" target="b2_4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b2_4" target="b2_5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b2_5" target="b2_6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b2_6" target="b2_7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b2_7" target="b2_8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b3_1" target="b3_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b3_2" target="b3_3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b3_3" target="b3_4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b3_4" target="b3_5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b3_5" target="b3_6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b3_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b3_6" target="b3_7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="user_lane" value="Pengguna (Dosen/Admin/Mahasiswa)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;" parent="1" type="lane" vertex="1">
+          <mxGeometry x="40" y="70" width="275" height="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="course_title_b1" value="B.1. Dosen Membuat Mata Kuliah" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="10" y="50" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_1" value="Dosen membuka halaman pembuatan mata kuliah" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_2" value="Mengisi formulir (nama, kode, SKS, dll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_9" value="Melihat mata kuliah yang berhasil dibuat" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="course_title_b2" value="B.2. Admin Menambahkan Mahasiswa ke Mata Kuliah" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="10" y="650" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_1" value="Admin membuka halaman kelola mahasiswa di sebuah mata kuliah" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="700" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_2" value="Memilih mahasiswa dari daftar yang tersedia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_8" value="Melihat daftar mahasiswa yang sudah terdaftar" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="course_title_b3" value="B.3. Mahasiswa Melihat Daftar Mata Kuliah" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="10" y="1300" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_1" value="Mahasiswa membuka halaman daftar mata kuliah" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="1350" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_7" value="Melihat semua mata kuliah yang diikuti" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" parent="user_lane" vertex="1">
+          <mxGeometry x="77.5" y="1700" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="user_lane" source="b1_1" target="b1_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="user_lane" source="b2_1" target="b2_2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend_lane" value="Frontend (React)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;" parent="1" type="lane" vertex="1">
+          <mxGeometry x="315" y="70" width="275" height="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_3" value="Mengirim data (POST /api/courses)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="frontend_lane" vertex="1">
+          <mxGeometry x="77.5" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_8" value="Mengarahkan ke halaman detail mata kuliah" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="frontend_lane" vertex="1">
+          <mxGeometry x="77.5" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_3" value="Mengirim data pendaftaran (POST /api/courses/.../enroll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="frontend_lane" vertex="1">
+          <mxGeometry x="77.5" y="870" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_7" value="Memperbarui tampilan daftar mahasiswa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="frontend_lane" vertex="1">
+          <mxGeometry x="77.5" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_2" value="Meminta data mata kuliah (GET /api/courses)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="frontend_lane" vertex="1">
+          <mxGeometry x="77.5" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_6" value="Menampilkan daftar mata kuliah dalam bentuk kartu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="frontend_lane" vertex="1">
+          <mxGeometry x="77.5" y="1700" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_lane" value="Backend (NestJS)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;" parent="1" type="lane" vertex="1">
+          <mxGeometry x="590" y="70" width="275" height="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_4" value="Menerima &amp; validasi data (CreateCourseDto)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_5" value="Memproses data (CoursesService.create)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_7" value="Mengirim respons (data mata kuliah baru)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_4" value="Menerima &amp; memproses permintaan pendaftaran" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="870" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_6" value="Mengirim konfirmasi sukses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_3" value="Menerima permintaan (CoursesService.findAll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_5" value="Mengirim data mata kuliah yang terdaftar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="backend_lane" vertex="1">
+          <mxGeometry x="77.5" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_b1_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="backend_lane" source="b1_4" target="b1_5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="db_lane" value="Database (PostgreSQL)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;" parent="1" type="lane" vertex="1">
+          <mxGeometry x="865" y="70" width="275" height="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="b1_6" value="Menyimpan data baru ke tabel `courses`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=default;" parent="db_lane" vertex="1">
+          <mxGeometry x="77.5" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2_5" value="Menyimpan data ke tabel `course_enrollments`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=default;" parent="db_lane" vertex="1">
+          <mxGeometry x="77.5" y="960" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b3_4" value="Mengambil data dari `courses` &amp; `course_enrollments`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=default;" parent="db_lane" vertex="1">
+          <mxGeometry x="77.5" y="1520" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
