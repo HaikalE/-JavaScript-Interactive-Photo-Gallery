@@ -4806,15 +4806,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fpvoerWyWUynePvoth1T" name="Page-21">
-    <mxGraphModel dx="412" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="swimlane_container" value="Alur Sistem LMS Universitas V1.0" style="fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=16;" parent="1" type="swimlane" vertex="1">
-          <mxGeometry x="40" y="40" width="1100" height="13950" as="geometry" />
+          <mxGeometry x="40" y="40" width="1100" height="2820" as="geometry" />
         </mxCell>
         <mxCell id="user_lane" value="Pengguna (Dosen/Mahasiswa)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="swimlane_container" type="lane" vertex="1">
-          <mxGeometry width="1100" height="2790" as="geometry" />
+          <mxGeometry y="30" width="220" height="2790" as="geometry" />
         </mxCell>
         <mxCell id="auth_1" value="Input Email &amp; Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="user_lane" vertex="1">
           <mxGeometry x="50" y="50" width="120" height="60" as="geometry" />
@@ -4835,7 +4835,7 @@
           <mxGeometry x="50" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="frontend_lane" value="Frontend (React)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="swimlane_container" type="lane" vertex="1">
-          <mxGeometry y="2790" width="1100" height="2790" as="geometry" />
+          <mxGeometry x="220" y="30" width="220" height="2790" as="geometry" />
         </mxCell>
         <mxCell id="auth_2" value="Validasi Format Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="frontend_lane" vertex="1">
           <mxGeometry x="50" y="130" width="120" height="60" as="geometry" />
@@ -4865,12 +4865,12 @@
           <mxGeometry x="50" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="backend_lane" value="Backend (NestJS)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="swimlane_container" type="lane" vertex="1">
-          <mxGeometry y="5580" width="1100" height="2790" as="geometry" />
+          <mxGeometry x="440" y="30" width="220" height="2790" as="geometry" />
         </mxCell>
         <mxCell id="auth_4" value="AuthController.login()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="backend_lane" vertex="1">
           <mxGeometry x="50" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_5" value="AuthService.&lt;div&gt;validateUser()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="backend_lane" vertex="1">
+        <mxCell id="auth_5" value="AuthService.validateUser()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="backend_lane" vertex="1">
           <mxGeometry x="50" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="auth_7" value="Verifikasi Password (bcrypt)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="backend_lane" vertex="1">
@@ -4940,7 +4940,7 @@
           <mxGeometry x="50" y="2430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="db_lane" value="Database (PostgreSQL)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="swimlane_container" type="lane" vertex="1">
-          <mxGeometry y="8370" width="1100" height="2790" as="geometry" />
+          <mxGeometry x="660" y="30" width="220" height="2790" as="geometry" />
         </mxCell>
         <mxCell id="auth_6" value="Cek Pengguna di Tabel `users`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#9673a6;" parent="db_lane" vertex="1">
           <mxGeometry x="50" y="290" width="120" height="60" as="geometry" />
@@ -4961,7 +4961,7 @@
           <mxGeometry x="50" y="2330" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ai_lane" value="Layanan Eksternal (AI)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="swimlane_container" type="lane" vertex="1">
-          <mxGeometry y="11160" width="1100" height="2790" as="geometry" />
+          <mxGeometry x="880" y="30" width="220" height="2790" as="geometry" />
         </mxCell>
         <mxCell id="chat_11" value="Memproses Prompt &amp; Menghasilkan Jawaban" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" parent="ai_lane" vertex="1">
           <mxGeometry x="50" y="2120" width="120" height="70" as="geometry" />
