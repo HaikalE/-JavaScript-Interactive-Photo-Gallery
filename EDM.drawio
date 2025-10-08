@@ -5242,7 +5242,7 @@
         <mxCell id="swimlane_container" value="Alur Sistem LMS Universitas V1.0" style="fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=16;container=0;strokeColor=default;" parent="1" type="swimlane" vertex="1">
           <mxGeometry x="40" y="40" width="1100" height="2250" as="geometry" />
         </mxCell>
-        <mxCell id="course_title_main" value="B. Alur Manajemen Mata Kuliah" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="course_title_main" value="Alur Manajemen Mata Kuliah" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="1100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="edge_b1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="b1_2" target="b1_3" edge="1">
