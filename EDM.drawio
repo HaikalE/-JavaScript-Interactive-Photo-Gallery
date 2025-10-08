@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="29">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="30">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -6589,6 +6589,96 @@
         </mxCell>
         <mxCell id="patent4" value="4. Metode pelacakan perilaku belajar video anti kecurangan" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;" vertex="1" parent="patent">
           <mxGeometry x="10" y="110" width="260" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KI7_SNxsT6xxGxU-_1GQ" name="Page-30">
+    <mxGraphModel dx="1132" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="DIAGRAM ALUR MASUK SISTEM PEMBELAJARAN DARING" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pengguna" value="Pengguna (1)" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="180" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="pengguna">
+          <mxGeometry x="40" y="60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="Memasukkan Alamat Surel dan Kata Sandi (2)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pengguna">
+          <mxGeometry x="30" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="Berhasil Masuk ke Sistem" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="pengguna">
+          <mxGeometry x="40" y="505" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pengguna" source="p1" target="p2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tampilan" value="Tampilan Aplikasi (3)" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="180" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" value="Memeriksa Format Masukan (3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="Mengirim Data ke Mesin (3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="Menyimpan Tanda Masuk (3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="Menampilkan Halaman Utama (6)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tampilan" source="t1" target="t2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tampilan" source="t3" target="t4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pemroses" value="Mesin Pemroses (4)" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="180" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="Menerima Permintaan Masuk (4)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
+          <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="Mencocokkan Data Pengguna (4)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
+          <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="Membuat Tanda Pengenal Digital (4)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
+          <mxGeometry x="30" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="m1" target="m2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="database" value="Basis Data Penyimpanan (5)" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="180" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" value="Mencari Data Pengguna (5)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;" vertex="1" parent="database">
+          <mxGeometry x="40" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p2" target="t1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t2" target="m1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m2" target="d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="d1" target="m3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m3" target="t3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4" target="p3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
