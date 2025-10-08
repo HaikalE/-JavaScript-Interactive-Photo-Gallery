@@ -5705,7 +5705,7 @@
         <mxCell id="s2" value="Menonton Video Pembelajaran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mahasiswa">
           <mxGeometry x="30" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3" value="Menerima Pemberitahuan Kehadiran Tercatat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="mahasiswa">
+        <mxCell id="s3" value="Menerima Pemberitahuan Kehadiran Tercatat" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="mahasiswa">
           <mxGeometry x="30" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ea1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mahasiswa" source="s1" target="s2">
