@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="25">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="26">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -5683,6 +5683,156 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4" target="p3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0bZXElP52dG9JFH96_c8" name="Page-26">
+    <mxGraphModel dx="1132" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="DIAGRAM ALUR PENCATATAN KEHADIRAN OTOMATIS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mahasiswa" value="Mahasiswa" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="180" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="mahasiswa">
+          <mxGeometry x="40" y="60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="Menonton Video Pembelajaran" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mahasiswa">
+          <mxGeometry x="30" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="Menerima Pemberitahuan Kehadiran Tercatat" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="mahasiswa">
+          <mxGeometry x="30" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ea1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mahasiswa" source="s1" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tampilan" value="Tampilan Aplikasi" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="180" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="v1" value="Memantau Kemajuan Video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2" value="Mengirim Laporan Kemajuan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3" value="Menampilkan Pemberitahuan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tampilan">
+          <mxGeometry x="30" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ea3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tampilan" source="v1" target="v2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pemroses" value="Mesin Pemroses" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="200" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="pr1" value="Memproses Laporan Kemajuan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
+          <mxGeometry x="40" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pr2" value="Video Cukup&lt;div&gt;Ditonton?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="pemroses">
+          <mxGeometry x="35" y="290" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pr3" value="Video Pemicu&lt;div&gt;Absensi?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="pemroses">
+          <mxGeometry x="35" y="390" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pr4" value="Mengumpulkan Daftar Video Wajib" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
+          <mxGeometry x="40" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pr5" value="Semua Video&lt;div&gt;Wajib Selesai?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="pemroses">
+          <mxGeometry x="35" y="570" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pr6" value="Kehadiran Sudah Tercatat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="pemroses">
+          <mxGeometry x="35" y="670" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pr7" value="Membuat Pemberitahuan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
+          <mxGeometry x="40" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ea7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="pr2" target="pr3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea7_label" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" connectable="0" vertex="1" parent="ea7">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ea8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="pr3" target="pr4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea8_label" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" connectable="0" vertex="1" parent="ea8">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ea11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="pr5" target="pr6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea11_label" value="Ya" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" connectable="0" vertex="1" parent="ea11">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ea12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="pr6" target="pr7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea12_label" value="Belum" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" connectable="0" vertex="1" parent="ea12">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="database" value="Penyimpanan Data" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="180" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="db1" value="Menyimpan Kemajuan Video" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;" vertex="1" parent="database">
+          <mxGeometry x="40" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="db2" value="Memeriksa Kemajuan Semua Video" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;" vertex="1" parent="database">
+          <mxGeometry x="40" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="db3" value="Mencatat Kehadiran Otomatis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;" vertex="1" parent="database">
+          <mxGeometry x="40" y="790" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ea2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2" target="v1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v2" target="pr1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pr1" target="db1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="db1" target="pr2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ea9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pr4" target="db2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="db2" target="pr5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="690" />
+            </Array>
+            <mxPoint x="690" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ea13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pr7" target="db3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ea14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="db3" target="v3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="960" />
+              <mxPoint x="310" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ea15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3" target="s3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
