@@ -5145,7 +5145,7 @@
           <mxGeometry x="40" y="40" width="1100" height="750" as="geometry" />
         </mxCell>
         <mxCell id="auth_title" value="Alur Autentikasi" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="45" y="39" width="1090" height="30" as="geometry" />
+          <mxGeometry x="40" y="39" width="1100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="auth_edge_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_1" target="auth_2" edge="1">
           <mxGeometry relative="1" as="geometry" />
