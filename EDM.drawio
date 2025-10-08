@@ -5902,6 +5902,9 @@
         <mxCell id="m9" value="Menerima Jawaban dari AI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pemroses">
           <mxGeometry x="40" y="680" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2nRcFrSLH0TigQbaSHCA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Inter;fontSize=16;fontColor=default;fontStyle=1;horizontal=1;" edge="1" parent="pemroses" source="m10" target="m11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m10" value="TAHAP D: Penyimpanan" style="text;html=1;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;" vertex="1" parent="pemroses">
           <mxGeometry x="10" y="760" width="180" height="30" as="geometry" />
         </mxCell>
@@ -5924,9 +5927,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ec15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="m9" target="m10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ec16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pemroses" source="m10" target="m11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="database" value="Penyimpanan Data" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=default;strokeColor=default;startSize=40;" vertex="1" parent="1">
