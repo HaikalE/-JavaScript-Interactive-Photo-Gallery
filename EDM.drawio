@@ -5141,94 +5141,94 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="swimlane_container" value="" style="fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=16;container=0;" parent="1" type="swimlane" vertex="1">
+        <mxCell id="swimlane_container" value="" style="fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=16;container=0;strokeColor=default;" parent="1" type="swimlane" vertex="1">
           <mxGeometry x="40" y="40" width="1100" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="auth_title" value="Alur Autentikasi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="auth_title" value="Alur Autentikasi" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="45" y="39" width="1090" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_1" target="auth_2" edge="1">
+        <mxCell id="auth_edge_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_1" target="auth_2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_3" target="auth_4" edge="1">
+        <mxCell id="auth_edge_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_3" target="auth_4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="auth_5" target="auth_6" edge="1">
+        <mxCell id="auth_edge_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" parent="1" source="auth_5" target="auth_6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_6" target="auth_7" edge="1">
+        <mxCell id="auth_edge_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_6" target="auth_7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_9" target="auth_10" edge="1">
+        <mxCell id="auth_edge_9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_9" target="auth_10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_11" target="auth_12" edge="1">
+        <mxCell id="auth_edge_11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_11" target="auth_12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="user_lane" value="Pengguna (Dosen/Mahasiswa)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="1" type="lane" vertex="1">
+        <mxCell id="user_lane" value="Pengguna (Dosen/Mahasiswa)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;container=0;" parent="1" type="lane" vertex="1">
           <mxGeometry x="40" y="70" width="220" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="frontend_lane" value="Frontend (React)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;container=0;" parent="1" type="lane" vertex="1">
+        <mxCell id="frontend_lane" value="Frontend (React)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;container=0;" parent="1" type="lane" vertex="1">
           <mxGeometry x="260" y="70" width="220" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="backend_lane" value="Backend (NestJS)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;container=0;" parent="1" type="lane" vertex="1">
+        <mxCell id="backend_lane" value="Backend (NestJS)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;container=0;" parent="1" type="lane" vertex="1">
           <mxGeometry x="480" y="70" width="220" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="db_lane" value="Database (PostgreSQL)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;container=0;" parent="1" type="lane" vertex="1">
+        <mxCell id="db_lane" value="Database (PostgreSQL)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;container=0;" parent="1" type="lane" vertex="1">
           <mxGeometry x="700" y="70" width="220" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="ai_lane" value="Layanan Eksternal (AI)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" parent="1" type="lane" vertex="1">
+        <mxCell id="ai_lane" value="Layanan Eksternal (AI)" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Inter;fontSize=12;fontStyle=1;fillColor=default;strokeColor=default;container=0;" parent="1" type="lane" vertex="1">
           <mxGeometry x="920" y="70" width="220" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="auth_1" value="Input Email &amp; Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="auth_1" value="Input Email &amp; Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="90" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_12" value="Login Berhasil, Melihat Dashboard" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="auth_12" value="Login Berhasil, Melihat Dashboard" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="90" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_2" value="Validasi Format Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="auth_2" value="Validasi Format Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_3" value="POST /api/auth/login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="auth_3" value="POST /api/auth/login" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="310" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_10" value="Simpan Token di Local Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="auth_10" value="Simpan Token di Local Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="310" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_11" value="Redirect ke Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="auth_11" value="Redirect ke Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="310" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_2" target="auth_3" edge="1">
+        <mxCell id="auth_edge_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_2" target="auth_3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_10" target="auth_11" edge="1">
+        <mxCell id="auth_edge_10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_10" target="auth_11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_4" value="AuthController.login()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="auth_4" value="AuthController.login()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="530" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_5" value="AuthService.&lt;div&gt;validateUser()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="auth_5" value="AuthService.&lt;div&gt;validateUser()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="530" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_7" value="Verifikasi Password (bcrypt)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="auth_7" value="Verifikasi Password (bcrypt)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="530" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_8" value="Buat JWT Token" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="auth_8" value="Buat JWT Token" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="530" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_9" value="Kirim Response (token + user data)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="auth_9" value="Kirim Response (token + user data)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="530" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_4" target="auth_5" edge="1">
+        <mxCell id="auth_edge_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_4" target="auth_5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_7" target="auth_8" edge="1">
+        <mxCell id="auth_edge_7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_7" target="auth_8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_edge_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="auth_8" target="auth_9" edge="1">
+        <mxCell id="auth_edge_8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="auth_8" target="auth_9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="auth_6" value="Cek Pengguna di Tabel `users`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="auth_6" value="Cek Pengguna di Tabel `users`" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="750" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
