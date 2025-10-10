@@ -3043,7 +3043,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tAeB8S2khgMaZ6fd8juZ" name="Page-12">
-    <mxGraphModel dx="1617" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="3234" dy="2146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3418,14 +3418,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="facilitates-diamond" value="facilitates" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="facilitates-diamond" value="has" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="line-course-discussion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;entryX=0.312;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;endArrow=classic;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="facilitates-diamond" target="X6g4ebVKOqkpTDBfu48Q-10" edge="1">
+        <mxCell id="line-course-discussion" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;entryX=0.012;entryY=0.921;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;endArrow=classic;endFill=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="facilitates-diamond" target="LNX-SdS5j3SVk6GOy4kO-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="900" y="910" />
-              <mxPoint x="1099" y="910" />
+              <mxPoint x="1290" y="910" />
+              <mxPoint x="1290" y="648" />
             </Array>
             <mxPoint x="1096.8799999999999" y="820.3899999999999" as="targetPoint" />
           </mxGeometry>
@@ -3776,7 +3777,7 @@
         <mxCell id="LNX-SdS5j3SVk6GOy4kO-6" value="Level (0=root, 1=sub, 2=sub-sub)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=2" parent="LNX-SdS5j3SVk6GOy4kO-1" vertex="1">
           <mxGeometry y="150" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1k6skPA_TxMzZ4lz_vO1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="LNX-SdS5j3SVk6GOy4kO-4" target="has-submodule-diamond">
+        <mxCell id="1k6skPA_TxMzZ4lz_vO1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;jumpStyle=arc;" edge="1" parent="1" source="LNX-SdS5j3SVk6GOy4kO-4" target="has-submodule-diamond">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
