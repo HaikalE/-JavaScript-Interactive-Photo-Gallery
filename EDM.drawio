@@ -3748,48 +3748,175 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZUG0Dl2OC8zSR_pEqA80" name="Page-31">
-    <mxGraphModel dx="808" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1020" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="course-entity" value="Course" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="300" width="220" height="180" as="geometry" />
+        <mxCell id="user-table" value="USER" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="50" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="course-pk" value="&lt;u&gt;CourseID&lt;/u&gt; (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="course-entity">
-          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        <mxCell id="user-attr" value="PK UserID&#xa;U  ITBAccount&#xa;   Name&#xa;   Email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="user-table" vertex="1">
+          <mxGeometry y="26" width="180" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="course-code" value="CourseCode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="course-entity">
-          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        <mxCell id="student-table" value="STUDENT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="course-name" value="CourseName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="course-entity">
-          <mxGeometry y="90" width="220" height="30" as="geometry" />
+        <mxCell id="student-attr" value="PK,FK UserID&#xa;      Major&#xa;      GPA&#xa;      Year" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="student-table" vertex="1">
+          <mxGeometry y="26" width="180" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="course-sks" value="SKS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="course-entity">
-          <mxGeometry y="120" width="220" height="30" as="geometry" />
+        <mxCell id="lecturer-table" value="LECTURER" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="400" y="250" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="course-semester" value="Semester" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="course-entity">
-          <mxGeometry y="150" width="220" height="30" as="geometry" />
+        <mxCell id="lecturer-attr" value="PK,FK UserID&#xa;      Department&#xa;      Rank&#xa;      Office" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lecturer-table" vertex="1">
+          <mxGeometry y="26" width="180" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="prerequisite-diamond" value="prerequisite" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="admin-table" value="ADMIN" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="700" y="250" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="line-course-to-prereq" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.018;exitY=0.163;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;endArrow=none;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="course-sks" target="prerequisite-diamond">
+        <mxCell id="admin-attr" value="PK,FK UserID&#xa;      AccessLevel&#xa;      Permissions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="admin-table" vertex="1">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="course-table" value="COURSE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="course-attr" value="PK CourseID&#xa;FK prerequisite&#xa;   CourseCode" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="course-table" vertex="1">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="enrolls-table" value="ENROLLS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="100" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enrolls-attr" value="PK,FK StudID&#xa;PK,FK CrsID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="enrolls-table" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="assignment-table" value="ASSIGNMENT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="400" y="450" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="assignment-attr" value="PK AssignID&#xa;FK CourseID&#xa;   Title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="assignment-table" vertex="1">
+          <mxGeometry y="26" width="180" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="submits-table" value="SUBMITS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="400" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="submits-attr" value="PK,FK StudID&#xa;PK,FK AssignID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="submits-table" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="submission-table" value="SUBMISSION" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="700" y="450" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="submission-attr" value="PK SubmissID&#xa;FK GradeID(U)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="submission-table" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="grade-table" value="GRADE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="950" y="450" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="grade-attr" value="PK GradeID&#xa;   Score" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="grade-table" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="exam-table" value="EXAM" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="700" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="exam-attr" value="PK ExamID&#xa;FK CourseID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="exam-table" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="question-table" value="QUESTION (Weak)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;strokeDashArray=5 5;" parent="1" vertex="1">
+          <mxGeometry x="950" y="620" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="question-attr" value="PK,FK ExamID&#xa;PK QuestionNo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="question-table" vertex="1">
+          <mxGeometry y="26" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="isa-student" value="" style="endArrow=block;endFill=0;html=1;strokeWidth=2;" parent="1" source="student-table" target="user-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isa-lecturer" value="" style="endArrow=block;endFill=0;html=1;strokeWidth=2;" parent="1" source="lecturer-table" target="user-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="isa-admin" value="" style="endArrow=block;endFill=0;html=1;strokeWidth=2;" parent="1" source="admin-table" target="user-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="course-prereq" value="prerequisite" style="endArrow=classic;html=1;strokeWidth=1;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="course-attr" target="course-table" edge="1">
+          <mxGeometry x="-0.2" y="-15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="500" />
+              <mxPoint x="50" y="450" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="student-enrolls" value="N" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" source="student-table" target="enrolls-table" edge="1">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="course-enrolls" value="M" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" source="course-table" target="enrolls-table" edge="1">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="course-assignment" value="1:N" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" source="course-table" target="assignment-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assignment-submits" value="M" style="endArrow=classic;html=1;strokeWidth=1;" parent="1" source="assignment-table" target="submits-table" edge="1">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="student-submits" value="N" style="endArrow=classic;html=1;strokeWidth=1;curved=1;" parent="1" source="student-attr" target="submits-table" edge="1">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="320" />
+              <mxPoint x="350" y="660" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="submission-grade" value="1:1" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;" parent="1" source="submission-table" target="grade-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="course-exam" value="1:N" style="endArrow=classic;html=1;strokeWidth=1;curved=1;" parent="1" source="course-attr" target="exam-table" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="800" y="425" />
+              <mxPoint x="350" y="500" />
+              <mxPoint x="350" y="580" />
+              <mxPoint x="600" y="580" />
+              <mxPoint x="600" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="line-prereq-to-course" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;endArrow=classic;endFill=1;" edge="1" parent="1" source="prerequisite-diamond" target="course-entity">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="960" y="390" />
-              <mxPoint x="960" y="250" />
-              <mxPoint x="740" y="250" />
-              <mxPoint x="740" y="260" />
-              <mxPoint x="620" y="260" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="exam-question" value="owns" style="endArrow=classic;html=1;strokeWidth=2;strokeDashArray=5 5;" parent="1" source="exam-table" target="question-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="LEGENDA:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1200" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-pk" value="PK = Primary Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="80" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-fk" value="FK = Foreign Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-u" value="U = Unique Constraint" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="120" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-colors" value="WARNA TABEL:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1200" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-blue" value="Biru = Entitas Utama" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="190" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-yellow" value="Kuning = ISA/Subclass" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="210" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-green" value="Hijau = Entitas Reguler" style="text;html=1;strokeColor=none;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="230" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-red" value="Merah = Junction Table" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="250" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-purple" value="Ungu = Transaksi" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="270" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-orange" value="Orange = Weak Entity" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="290" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
