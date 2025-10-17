@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5" pages="31">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="32">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -8259,6 +8259,113 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ec20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t2" target="u3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JSUe-mI6sydsGwWpUQOV" name="Page-32">
+    <mxGraphModel dx="1819" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Klasifikasi Lalu Lintas Terenkripsi &amp; Deteksi Open-Set: Tren Arsitektur" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P0" value="Open-Set Recognition (OSR) Problem" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=12;gradientColor=none;gradientDirection=radial;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M2" value="DCGAN &amp; PreD (Model Inisialisasi TGAN)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="-80" y="200" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M1" value="Arsitektur Dual GANs (TGAN-IDS)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M3" value="Zen-tor (Zero Knowledge Known-unknown Classification)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="120" y="650" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M4" value="Autoencoder (AE) / VAE" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M5" value="CVAE-EVT (Tahap Klasifikasi Diskriminatif)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M6" value="Extreme Value Theory (EVT/GPD)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="510" y="690" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M7" value="Open-Detect (VAE + Gaussian Prototypes)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="720" y="650" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M8" value="Deep Ensemble Learning (RFG-HELAD)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="810" y="490" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M9" value="Transformer (ET-BERT)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="1140" y="210" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M10" value="Graph Neural Networks (TFE-GNN)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11" vertex="1" parent="1">
+          <mxGeometry x="980" y="440" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e_P0_M1" value="Mengatasi Masalah OSR" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="P0" target="M1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_P0_M3" value="Mengatasi Masalah OSR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P0" target="M3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="160" />
+              <mxPoint x="385" y="160" />
+              <mxPoint x="385" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_P0_M4" value="Model Awal Deteksi Anomali" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P0" target="M4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="160" />
+              <mxPoint x="600" y="160" />
+              <mxPoint x="600" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_P0_M8" value="Fokus pada Robustness terhadap Serangan Tak Dikenal" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P0" target="M8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="160" />
+              <mxPoint x="875" y="160" />
+              <mxPoint x="875" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_P0_M9" value="Representasi Data Terenkripsi" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="P0" target="M9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_P0_M10" value="Representasi Data Terenkripsi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P0" target="M10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_M2_M1" value="Input/Transfer Jaringan ke TGAN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M2" target="M1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_M4_M5" value="Pengembangan VAE untuk Klasifikasi Diskriminatif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M4" target="M5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_M5_M6" value="Output Reconstruction Error" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5" target="M6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_M4_M7" value="Pengembangan VAE dengan Kendala Prototipe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M4" target="M7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="280" />
+              <mxPoint x="800" y="280" />
+              <mxPoint x="800" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_M9_M10" value="Model Lanjutan Klasifikasi Lalu Lintas Terenkripsi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M9" target="M10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
