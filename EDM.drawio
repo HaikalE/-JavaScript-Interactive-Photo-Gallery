@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="34">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9" pages="35">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -10150,6 +10150,230 @@
               <mxPoint x="590" y="260" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6_-_jofhxUOpnHg1M9Wg" name="Page-35">
+    <mxGraphModel dx="2784" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sender-header" value="SENDER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="105" y="-10" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="receiver-header" value="RECEIVER SIDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="640" y="-10" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="begin" value="BEGIN" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="255" y="60" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-begin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2" parent="1" source="begin" target="step1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" value="&lt;b&gt;Input Message&lt;/b&gt;&lt;br&gt;M" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="235" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sender-db" value="Sender Key Store&lt;br&gt;(SK_sender, PK_receiver)" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="245" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step2a" value="&lt;b&gt;SHA-256&lt;/b&gt;&lt;br&gt;H = Hash(M)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="140" y="230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step2b" value="&lt;b&gt;SSC Encrypt&lt;/b&gt;&lt;br&gt;C = Enc(M, PK_receiver)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="340" y="230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-db-s2b" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="sender-db" target="step2b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step1" target="step2a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step1" target="step2b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="&lt;b&gt;OSS Sign&lt;/b&gt;&lt;br&gt;(s₁, s₂) = Sign(H, SK_sender)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="140" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-db-s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="sender-db" target="step3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step2a" target="step3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="&lt;b&gt;Output JSON&lt;/b&gt;&lt;br&gt;{ C, H, s₁, s₂ }" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="225" y="635" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4a" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="step3" target="step4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="360" />
+              <mxPoint x="120" y="654" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4b" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" parent="1" source="step2b" target="step4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="260" />
+              <mxPoint x="490" y="600" />
+              <mxPoint x="345" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="transfer" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#d79b00;jumpStyle=arc;" parent="1" source="step4" target="step5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="transfer-label" value="&lt;b&gt;NETWORK TRANSFER&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=3;labelBackgroundColor=#ffffff" parent="transfer" vertex="1" connectable="0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-67" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step5" value="&lt;b&gt;Receive JSON&lt;/b&gt;&lt;br&gt;{ C, H, s₁, s₂ }" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="595" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="receiver-db" value="Receiver Key Store&lt;br&gt;(SK_receiver, PK_sender)" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="780" y="465" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step6a" value="&lt;b&gt;OSS Verify&lt;/b&gt;&lt;br&gt;Valid = Verify(H, s₁, s₂, PK_sender)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="640" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step6b" value="&lt;b&gt;SSC Decrypt&lt;/b&gt;&lt;br&gt;M&#39; = Dec(C, SK_receiver)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="900" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step5" target="step6a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;jumpStyle=arc;" parent="1" source="step5" target="step6b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-db-r6a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="1" source="receiver-db" target="step6a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-db-r6b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="receiver-db" target="step6b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step7" value="&lt;b&gt;Hash Check&lt;/b&gt;&lt;br&gt;H&#39; = Hash(M&#39;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11" parent="1" vertex="1">
+          <mxGeometry x="900" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step6b" target="step7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" value="&lt;b&gt;Valid &amp;amp;&amp;amp;&lt;br&gt;H&#39; == H ?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="815" y="100" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step6a" target="decision" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2" parent="1" source="step7" target="decision" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step8" value="&lt;b&gt;Accept&lt;/b&gt;&lt;br&gt;Output: M&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="990" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step8b" value="&lt;b&gt;Reject&lt;/b&gt;&lt;br&gt;Invalid Signature" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="660" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-yes" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#82b366;edgeStyle=orthogonalEdgeStyle;" parent="1" source="decision" target="step8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-yes" value="YES" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fillColor=#d5e8d4" parent="1" vertex="1">
+          <mxGeometry x="980" y="60" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-no" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#b85450;edgeStyle=orthogonalEdgeStyle;" parent="1" source="decision" target="step8b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label-no" value="NO" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fillColor=#f8cecc" parent="1" vertex="1">
+          <mxGeometry x="815" y="180" width="25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="end-reject" value="END" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="815" y="620" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-end-accept" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="step8" target="end-reject" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="590" />
+              <mxPoint x="860" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-end-reject" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="step8b" target="end-reject" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="140" />
+              <mxPoint x="580" y="590" />
+              <mxPoint x="860" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-1010" y="640" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="&lt;b&gt;LEGEND&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1010" y="645" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="color-input" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="675" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="color-input-label" value="Input/Output" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-960" y="673" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="color-ssc" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-870" y="675" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="color-ssc-label" value="SSC Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-840" y="673" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="color-oss" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="675" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="color-oss-label" value="OSS Algorithm" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-720" y="673" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="color-json" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="675" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="color-json-label" value="JSON Data" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-600" y="673" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="color-decision" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="695" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="color-decision-label" value="Decision" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-960" y="693" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="shape-process" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-870" y="695" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="shape-process-label" value="Process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-840" y="693" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="shape-io" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="695" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="shape-io-label" value="Input/Output" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-715" y="693" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-db" value="" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="715" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-db-label" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-960" y="713" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-terminator" value="" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-870" y="715" width="25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-terminator-label" value="Terminator (Begin/End)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10" parent="1" vertex="1">
+          <mxGeometry x="-840" y="713" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="notation-title" value="&lt;b&gt;NOTATIONS:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1010" y="760" width="80" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="notation-text" value="M = Message&lt;br&gt;H = Hash value&lt;br&gt;C = Ciphertext&lt;br&gt;s₁, s₂ = Signature components&lt;br&gt;PK = Public Key&lt;br&gt;SK = Secret Key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9" parent="1" vertex="1">
+          <mxGeometry x="-1010" y="780" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="algorithms-text" value="&lt;b&gt;SSC&lt;/b&gt; = Signcryption Scheme&lt;br&gt;&lt;b&gt;OSS&lt;/b&gt; = Online/Offline Signature" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9" parent="1" vertex="1">
+          <mxGeometry x="-780" y="780" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
