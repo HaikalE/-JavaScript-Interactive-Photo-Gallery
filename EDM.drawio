@@ -10386,7 +10386,7 @@
         <mxCell id="user-actor" value="&lt;span&gt;User&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=default;strokeColor=default;strokeWidth=2.5;shadow=0;fontSize=16;fontStyle=1;rounded=1;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="570" y="80" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="arrow-user-system" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#6c8ebf;endArrow=block;endFill=1;endSize=10;shadow=0;curved=0;" parent="1" target="system-box" edge="1">
+        <mxCell id="arrow-user-system" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=default;endArrow=block;endFill=1;endSize=10;shadow=0;curved=0;" parent="1" target="system-box" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="600" y="240" />
