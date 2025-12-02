@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3" pages="36">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1" pages="37">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -10441,6 +10441,186 @@
         </mxCell>
         <mxCell id="module4" value="&lt;b&gt;Analyze Memory&lt;/b&gt;&lt;br&gt;Monitoring System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;strokeWidth=2.5;shadow=0;fontSize=14;align=center;verticalAlign=middle;arcSize=20;glass=0;comic=0;spacing=8;spacingTop=15;spacingBottom=15;" parent="1" vertex="1">
           <mxGeometry x="900" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o9H3_3UczQIYd-DDvNC_" name="Page-37">
+    <mxGraphModel dx="1140" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start_node" parent="1" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontColor=#FFFFFF;strokeWidth=2;fontStyle=1;fontSize=14" value="BEGIN" vertex="1">
+          <mxGeometry height="50" width="100" x="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sender_group" parent="1" style="swimlane;horizontal=1;startSize=30;html=1;childLayout=none;connectable=0;collapsible=0;dropTarget=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="SENDER SIDE (Embedding Phase)" vertex="1">
+          <mxGeometry height="640" width="380" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_input" parent="sender_group" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="Secret Message&#xa;(Plaintext)" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ecc_enc" parent="sender_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ECC Signcryption&#xa;(Process)" vertex="1">
+          <mxGeometry height="50" width="120" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cipher" parent="sender_group" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Compact&#xa;Ciphertext" vertex="1">
+          <mxGeometry height="50" width="120" x="20" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qr_gen" parent="sender_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="QR Code&#xa;Generator" vertex="1">
+          <mxGeometry height="50" width="120" x="20" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="qr_img" parent="sender_group" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="QR Image&#xa;(Payload)" vertex="1">
+          <mxGeometry height="50" width="80" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cover_img" parent="sender_group" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="Cover Image" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dwt_proc" parent="sender_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="DWT&#xa;Decomposition" vertex="1">
+          <mxGeometry height="50" width="120" x="200" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="subband" parent="sender_group" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Select HL/LH&#xa;Sub-band" vertex="1">
+          <mxGeometry height="60" width="100" x="210" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dct_proc" parent="sender_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Block-based&#xa;DCT" vertex="1">
+          <mxGeometry height="50" width="120" x="200" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="embed_proc" parent="sender_group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="EMBEDDING PROCESS&#xa;(Replace LSB of DCT)" vertex="1">
+          <mxGeometry height="60" width="160" x="90" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="inv_proc" parent="sender_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Inverse DCT&#xa;&amp; Inverse DWT" vertex="1">
+          <mxGeometry height="50" width="160" x="90" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="sender_group" source="msg_input" target="ecc_enc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="sender_group" source="ecc_enc" target="cipher">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="sender_group" source="cipher" target="qr_gen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="sender_group" source="qr_gen" target="qr_img">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="sender_group" source="cover_img" target="dwt_proc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="sender_group" source="dwt_proc" target="subband">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="sender_group" source="subband" target="dct_proc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="sender_group" source="qr_img" style="entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="embed_proc">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="590" />
+              <mxPoint x="150" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="sender_group" source="dct_proc" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="embed_proc">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="sender_group" source="embed_proc" target="inv_proc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_start1" edge="1" parent="1" source="start_node" target="msg_input">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="180" />
+              <mxPoint x="120" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_start2" edge="1" parent="1" source="start_node" target="cover_img">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="180" />
+              <mxPoint x="300" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stego_img" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14" value="STEGO IMAGE" vertex="1">
+          <mxGeometry height="80" width="100" x="360" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="e_out" edge="1" parent="1" source="inv_proc" target="stego_img">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="receiver_group" parent="1" style="swimlane;horizontal=1;startSize=30;html=1;childLayout=none;connectable=0;collapsible=0;dropTarget=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="RECEIVER SIDE (Recovery Phase)" vertex="1">
+          <mxGeometry height="640" width="360" x="450" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rec_dwt" parent="receiver_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="DWT&#xa;Decomposition" vertex="1">
+          <mxGeometry height="50" width="120" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rec_dct" parent="receiver_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Block-based&#xa;DCT" vertex="1">
+          <mxGeometry height="50" width="120" x="120" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="extract_proc" parent="receiver_group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="EXTRACTION PROCESS&#xa;(Read LSB)" vertex="1">
+          <mxGeometry height="50" width="160" x="100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rec_qr" parent="receiver_group" style="shape=card;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Extracted&#xa;QR Stream" vertex="1">
+          <mxGeometry height="50" width="100" x="130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qr_decode" parent="receiver_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="QR Decoding &amp;&#xa;ECC Correction" vertex="1">
+          <mxGeometry height="50" width="120" x="120" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="rec_cipher" parent="receiver_group" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Recovered&#xa;Ciphertext" vertex="1">
+          <mxGeometry height="50" width="120" x="120" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="unsign" parent="receiver_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ECC&#xa;Unsigncryption" vertex="1">
+          <mxGeometry height="50" width="120" x="120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="final_msg" parent="receiver_group" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Recovered Message&#xa;(Authentic)" vertex="1">
+          <mxGeometry height="40" width="140" x="110" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec1" edge="1" parent="receiver_group" source="rec_dwt" target="rec_dct">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec2" edge="1" parent="receiver_group" source="rec_dct" target="extract_proc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec3" edge="1" parent="receiver_group" source="extract_proc" target="rec_qr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec4" edge="1" parent="receiver_group" source="rec_qr" target="qr_decode">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec5" edge="1" parent="receiver_group" source="qr_decode" target="rec_cipher">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec6" edge="1" parent="receiver_group" source="rec_cipher" target="unsign">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rec7" edge="1" parent="receiver_group" source="unsign" target="final_msg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="end_node" parent="1" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontColor=#FFFFFF;strokeWidth=2;fontStyle=1;fontSize=14" value="END" vertex="1">
+          <mxGeometry height="50" width="100" x="580" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fin" edge="1" parent="1" source="final_msg" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="end_node">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_trans" edge="1" parent="1" source="stego_img" style="exitX=0;exitY=0;exitDx=100;exitDy=55;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="rec_dwt">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="480" y="780" />
+              <mxPoint x="480" y="125" />
+            </Array>
+            <mxPoint x="460" y="820" as="sourcePoint" />
+            <mxPoint x="563.8461538461538" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6fWyX7pseGy10YCOPpMY-44" connectable="0" parent="e_trans" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;Transmission Channel&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;(Noise/Attacks)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0479" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
