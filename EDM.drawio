@@ -10450,7 +10450,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="start_node" parent="1" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontColor=#FFFFFF;strokeWidth=2;fontStyle=1;fontSize=14" value="BEGIN" vertex="1">
+        <mxCell id="start_node" parent="1" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#F3F2FF);strokeColor=#FFFFFF;fontColor=default;strokeWidth=2;fontStyle=1;fontSize=14;" value="BEGIN" vertex="1">
           <mxGeometry height="50" width="100" x="160" y="100" as="geometry" />
         </mxCell>
         <mxCell id="sender_group" parent="1" style="swimlane;horizontal=1;startSize=30;html=1;childLayout=none;connectable=0;collapsible=0;dropTarget=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="SENDER SIDE (Embedding Phase)" vertex="1">
@@ -10598,7 +10598,7 @@
         <mxCell id="e_rec7" edge="1" parent="receiver_group" source="unsign" target="final_msg">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="end_node" parent="1" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontColor=#FFFFFF;strokeWidth=2;fontStyle=1;fontSize=14" value="END" vertex="1">
+        <mxCell id="end_node" parent="1" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#F3F2FF);strokeColor=#FFFFFF;fontColor=default;strokeWidth=2;fontStyle=1;fontSize=14;" value="END" vertex="1">
           <mxGeometry height="50" width="100" x="580" y="740" as="geometry" />
         </mxCell>
         <mxCell id="e_fin" edge="1" parent="1" source="final_msg" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="end_node">
@@ -10617,7 +10617,7 @@
             <mxPoint x="563.8461538461538" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6fWyX7pseGy10YCOPpMY-44" connectable="0" parent="e_trans" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;Transmission Channel&lt;/span&gt;&lt;br style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(27, 29, 30);&quot;&gt;(Noise/Attacks)&lt;/span&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="6fWyX7pseGy10YCOPpMY-44" connectable="0" parent="e_trans" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Transmission Channel&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(Noise/Attacks)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0479" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
