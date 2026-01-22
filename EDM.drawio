@@ -10965,93 +10965,90 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="header1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#16213e;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="IDENTIFICATION" vertex="1">
+        <mxCell id="header1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=14;strokeWidth=2;" value="IDENTIFICATION" vertex="1">
           <mxGeometry height="40" width="160" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="box1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Records identified through&lt;br&gt;database searching&lt;/b&gt;&lt;br&gt;&lt;br&gt;IEEE Xplore (n=847)&lt;br&gt;ACM DL (n=623)&lt;br&gt;Scopus (n=712)&lt;br&gt;Web of Science (n=489)&lt;br&gt;Google Scholar (n=176)&lt;br&gt;&lt;br&gt;&lt;b&gt;Total: (n=2,847)&lt;/b&gt;" vertex="1">
+        <mxCell id="box1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Records identified through&lt;br&gt;database searching&lt;/b&gt;&lt;br&gt;&lt;br&gt;IEEE Xplore (n=847)&lt;br&gt;ACM DL (n=623)&lt;br&gt;Scopus (n=712)&lt;br&gt;Web of Science (n=489)&lt;br&gt;Google Scholar (n=176)&lt;br&gt;&lt;br&gt;&lt;b&gt;Total: (n=2,847)&lt;/b&gt;" vertex="1">
           <mxGeometry height="160" width="200" x="290" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="box2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Additional records identified&lt;br&gt;through other sources&lt;/b&gt;&lt;br&gt;&lt;br&gt;Backward snowballing (n=23)&lt;br&gt;Forward snowballing (n=18)&lt;br&gt;&lt;br&gt;&lt;b&gt;Total: (n=41)&lt;/b&gt;" vertex="1">
+        <mxCell id="box2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Additional records identified&lt;br&gt;through other sources&lt;/b&gt;&lt;br&gt;&lt;br&gt;Backward snowballing (n=23)&lt;br&gt;Forward snowballing (n=18)&lt;br&gt;&lt;br&gt;&lt;b&gt;Total: (n=41)&lt;/b&gt;" vertex="1">
           <mxGeometry height="160" width="200" x="510" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="arrow1" edge="1" parent="1" source="box1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" target="box3">
+        <mxCell id="arrow1" edge="1" parent="1" source="box1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;" target="box3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="header2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0f3460;strokeColor=#16213e;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="SCREENING" vertex="1">
+        <mxCell id="header2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=14;strokeWidth=2;" value="SCREENING" vertex="1">
           <mxGeometry height="40" width="160" x="40" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="box3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;Records after duplicates removed&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=1,923)" vertex="1">
+        <mxCell id="box3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" value="&lt;b&gt;Records after duplicates removed&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=1,923)" vertex="1">
           <mxGeometry height="60" width="200" x="290" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="excluded1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Duplicates removed&lt;/b&gt;&lt;br&gt;(n=924)" vertex="1">
+        <mxCell id="excluded1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Duplicates removed&lt;/b&gt;&lt;br&gt;(n=924)" vertex="1">
           <mxGeometry height="60" width="140" x="540" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="arrow_ex1" edge="1" parent="1" source="box3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#b85450;dashed=1;" target="excluded1">
+        <mxCell id="arrow_ex1" edge="1" parent="1" source="box3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;dashed=1;" target="excluded1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow2" edge="1" parent="1" source="box3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" target="box4">
+        <mxCell id="arrow2" edge="1" parent="1" source="box3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;" target="box4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="box4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;Records screened&lt;/b&gt;&lt;br&gt;(Title and Abstract)&lt;br&gt;&lt;br&gt;(n=1,923)" vertex="1">
+        <mxCell id="box4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" value="&lt;b&gt;Records screened&lt;/b&gt;&lt;br&gt;(Title and Abstract)&lt;br&gt;&lt;br&gt;(n=1,923)" vertex="1">
           <mxGeometry height="70" width="200" x="290" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="excluded2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Records excluded&lt;/b&gt;&lt;br&gt;(n=1,511)&lt;br&gt;&lt;br&gt;&lt;i&gt;Not relevant to encrypted&lt;br&gt;traffic or DL approaches&lt;/i&gt;" vertex="1">
+        <mxCell id="excluded2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Records excluded&lt;/b&gt;&lt;br&gt;(n=1,511)&lt;br&gt;&lt;br&gt;&lt;i&gt;Not relevant to encrypted&lt;br&gt;traffic or DL approaches&lt;/i&gt;" vertex="1">
           <mxGeometry height="90" width="160" x="530" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="arrow_ex2" edge="1" parent="1" source="box4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#b85450;dashed=1;" target="excluded2">
+        <mxCell id="arrow_ex2" edge="1" parent="1" source="box4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;dashed=1;" target="excluded2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="header3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#533483;strokeColor=#16213e;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="ELIGIBILITY" vertex="1">
+        <mxCell id="header3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=14;strokeWidth=2;" value="ELIGIBILITY" vertex="1">
           <mxGeometry height="40" width="160" x="40" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="arrow3" edge="1" parent="1" source="box4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" target="box5">
+        <mxCell id="arrow3" edge="1" parent="1" source="box4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;" target="box5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="box5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;Full-text articles assessed&lt;br&gt;for eligibility&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=412)" vertex="1">
+        <mxCell id="box5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" value="&lt;b&gt;Full-text articles assessed&lt;br&gt;for eligibility&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=412)" vertex="1">
           <mxGeometry height="70" width="200" x="290" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="excluded3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=middle;fontSize=10;spacingLeft=10;" value="&lt;b&gt;Full-text articles excluded&lt;/b&gt;&lt;br&gt;(n=285)&lt;br&gt;&lt;br&gt;&lt;i&gt;• No unknown detection (n=142)&lt;br&gt;• No deep learning (n=78)&lt;br&gt;• Insufficient evaluation (n=45)&lt;br&gt;• Duplicate/superseded (n=20)&lt;/i&gt;" vertex="1">
+        <mxCell id="excluded3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=middle;fontSize=10;spacingLeft=10;fontColor=#000000;" value="&lt;b&gt;Full-text articles excluded&lt;/b&gt;&lt;br&gt;(n=285)&lt;br&gt;&lt;br&gt;&lt;i&gt;• No unknown detection (n=142)&lt;br&gt;• No deep learning (n=78)&lt;br&gt;• Insufficient evaluation (n=45)&lt;br&gt;• Duplicate/superseded (n=20)&lt;/i&gt;" vertex="1">
           <mxGeometry height="120" width="180" x="520" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="arrow_ex3" edge="1" parent="1" source="box5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#b85450;dashed=1;" target="excluded3">
+        <mxCell id="arrow_ex3" edge="1" parent="1" source="box5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;dashed=1;" target="excluded3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow4" edge="1" parent="1" source="box5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" target="box6">
+        <mxCell id="arrow4" edge="1" parent="1" source="box5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;" target="box6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="header4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2d6a4f;strokeColor=#1b4332;fontColor=#ffffff;fontStyle=1;fontSize=14;" value="INCLUDED" vertex="1">
+        <mxCell id="header4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontStyle=1;fontSize=14;strokeWidth=2;" value="INCLUDED" vertex="1">
           <mxGeometry height="40" width="160" x="40" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="box6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;Studies included from&lt;br&gt;database search&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=127)" vertex="1">
-          <mxGeometry height="80" width="150" x="240" y="560" as="geometry" />
+        <mxCell id="box6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" value="&lt;b&gt;Studies included from&lt;br&gt;database search&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=127)" vertex="1">
+          <mxGeometry height="80" width="150" x="315" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="box7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;Studies included from&lt;br&gt;snowballing&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=31)" vertex="1">
+        <mxCell id="box7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" value="&lt;b&gt;Studies included from&lt;br&gt;snowballing&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=31)" vertex="1">
           <mxGeometry height="80" width="150" x="535" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="arrow_snow" edge="1" parent="1" source="box2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#82b366;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="box7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="110" />
-              <mxPoint x="700" y="600" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="arrow_snow" edge="1" parent="1" source="box2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="box7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="arrow5" edge="1" parent="1" source="box6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;" target="box8">
+        <mxCell id="arrow5" edge="1" parent="1" source="box6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;" target="box8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="315" y="650" />
+              <mxPoint x="390" y="650" />
               <mxPoint x="500" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="arrow6" edge="1" parent="1" source="box7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#333333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="box8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="arrow6" edge="1" parent="1" source="box7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="box8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="650" />
+              <mxPoint x="500" y="650" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="box8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60d394;strokeColor=#2d6a4f;align=center;verticalAlign=middle;fontSize=12;strokeWidth=3;" value="&lt;b&gt;FINAL CORPUS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;n = 158&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Studies included in&lt;br&gt;systematic review" vertex="1">
+        <mxCell id="box8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;strokeWidth=3;fontColor=#000000;" value="&lt;b&gt;FINAL CORPUS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;n = 158&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;Studies included in&lt;br&gt;systematic review" vertex="1">
           <mxGeometry height="100" width="200" x="400" y="680" as="geometry" />
-        </mxCell>
-        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" value="Fig. 1. PRISMA Flow Diagram for Systematic Literature Review" vertex="1">
-          <mxGeometry height="30" width="400" x="200" y="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
