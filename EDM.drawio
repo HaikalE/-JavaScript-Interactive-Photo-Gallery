@@ -11007,7 +11007,7 @@
         <mxCell id="box5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" value="&lt;b&gt;Full-text articles assessed&lt;br&gt;for eligibility&lt;/b&gt;&lt;br&gt;&lt;br&gt;(n=164)" vertex="1">
           <mxGeometry height="70" width="200" x="290" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="excluded3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=middle;fontSize=10;spacingLeft=5;fontColor=#000000;" value="&lt;b&gt;Full-text articles excluded&lt;/b&gt;&lt;br&gt;(n=114)&lt;br&gt;&lt;i&gt;• No unknown/open-set problem&lt;br&gt;• Lacking DL technical depth&lt;br&gt;• Obsolete datasets (&amp;lt;2018)&lt;/i&gt;" vertex="1">
+        <mxCell id="excluded3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;align=left;verticalAlign=middle;fontSize=10;spacingLeft=5;fontColor=#000000;" value="&lt;b&gt;Full-text articles excluded&lt;/b&gt;&lt;br&gt;(n=114)&lt;br&gt;&lt;i&gt;• No unknown/open-set problem&lt;br&gt;• Lacking in DL technical depth&lt;br&gt;• Datasets (&amp;lt;2018)&lt;/i&gt;" vertex="1">
           <mxGeometry height="100" width="190" x="530" y="405" as="geometry" />
         </mxCell>
         <mxCell id="arrow_ex3" edge="1" parent="1" source="box5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#000000;dashed=1;" target="excluded3">
