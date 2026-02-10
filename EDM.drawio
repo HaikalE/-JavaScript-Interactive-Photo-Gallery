@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4" pages="46">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8" pages="47">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -11480,6 +11480,133 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e15" edge="1" parent="1" source="16" style="strokeColor=#000000;" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="086tf9p7G-Lii_AQyjLT" name="Page-47">
+    <mxGraphModel dx="1211" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Title2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" value="&lt;b&gt;MESSAGE ENCRYPTION &amp; TRANSMISSION&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#000000;" value="Start" vertex="1">
+          <mxGeometry height="40" width="80" x="480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="User types message" vertex="1">
+          <mxGeometry height="50" width="160" x="440" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Encrypt message with&#xa;personal AES key" vertex="1">
+          <mxGeometry height="60" width="160" x="440" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="E4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Encrypt AES key with&#xa;recipient&#39;s RSA public key" vertex="1">
+          <mxGeometry height="50" width="160" x="440" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="E5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Send to backend" vertex="1">
+          <mxGeometry height="50" width="160" x="440" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="E6a" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Backend stores in&#xa;database" vertex="1">
+          <mxGeometry height="60" width="140" x="450" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="E6b" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Broadcast via&#xa;Socket.IO" vertex="1">
+          <mxGeometry height="50" width="140" x="450" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="E7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#000000;" value="End" vertex="1">
+          <mxGeometry height="40" width="80" x="480" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="eE1" edge="1" parent="1" source="E1" target="E2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eE2" edge="1" parent="1" source="E2" target="E3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eE3" edge="1" parent="1" source="E3" target="E4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eE4" edge="1" parent="1" source="E4" target="E5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eE5_Seq" edge="1" parent="1" source="E5" target="E6a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eE6a_Seq" edge="1" parent="1" source="E6a" target="E6b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eE6b_Seq" edge="1" parent="1" source="E6b" target="E7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Title3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" value="&lt;b&gt;MESSAGE DECRYPTION PROCESS&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="700" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#000000;" value="Start" vertex="1">
+          <mxGeometry height="40" width="80" x="780" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Receive encrypted message&#xa;&amp; AES key" vertex="1">
+          <mxGeometry height="50" width="180" x="730" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Sender = Self?" vertex="1">
+          <mxGeometry height="80" width="100" x="770" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="D4_Yes" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Decrypt with personal&#xa;AES key" vertex="1">
+          <mxGeometry height="50" width="140" x="660" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="D4_No1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Decrypt AES key with&#xa;RSA private key" vertex="1">
+          <mxGeometry height="50" width="140" x="840" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="D4_No2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Decrypt message&#xa;with AES key" vertex="1">
+          <mxGeometry height="50" width="140" x="840" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="D5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="Display plaintext in&#xa;chat UI" vertex="1">
+          <mxGeometry height="50" width="140" x="750" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="D6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#000000;" value="End" vertex="1">
+          <mxGeometry height="40" width="80" x="780" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="eD1" edge="1" parent="1" source="D1" target="D2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD2" edge="1" parent="1" source="D2" target="D3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3_Yes" edge="1" parent="1" source="D3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" target="D4_Yes" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="270" />
+              <mxPoint x="730" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD3_No" edge="1" parent="1" source="D3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" target="D4_No1" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="270" />
+              <mxPoint x="910" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD4_No" edge="1" parent="1" source="D4_No1" target="D4_No2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMerge_Yes" edge="1" parent="1" source="D4_Yes" target="D5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="480" />
+              <mxPoint x="820" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMerge_No" edge="1" parent="1" source="D4_No2" target="D5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="480" />
+              <mxPoint x="820" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD5" edge="1" parent="1" source="D5" target="D6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
