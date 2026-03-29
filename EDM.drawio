@@ -12222,7 +12222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PbZFtA6pscTOGfRc2iNP" name="Page-53">
-    <mxGraphModel dx="2784" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2380" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12271,7 +12271,7 @@
         <mxCell id="f1_stats" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Ekstraksi Statistik Antar-Paket&lt;br&gt;&lt;i&gt;(inter-arrival time, durasi, laju paket, bytes/s)&lt;/i&gt;" vertex="1">
           <mxGeometry height="44" width="360" x="290" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="f1_encoder" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Temporal Encoder (MLP / BiGRU)&lt;/b&gt;" vertex="1">
+        <mxCell id="f1_encoder" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Temporal Encoder (BiGRU)&lt;/b&gt;" vertex="1">
           <mxGeometry height="42" width="300" x="320" y="185" as="geometry" />
         </mxCell>
         <mxCell id="a_f1_1" edge="1" parent="1" source="f1_input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f1_stats" value="">
