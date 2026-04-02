@@ -12476,7 +12476,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVVEr65wHq39kqPrR_Pw" name="Page-54">
-    <mxGraphModel dx="2100" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1560" math="0" shadow="0">
+    <mxGraphModel dx="1980" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1560" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12525,8 +12525,8 @@
         <mxCell id="f1_stats" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Ekstraksi Sekuens Fitur Temporal&lt;br&gt;&lt;i&gt;(Sekuens IAT, Sekuens Panjang Paket, Sekuens Arah)&lt;/i&gt;" vertex="1">
           <mxGeometry height="44" width="360" x="290" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="f1_encoder" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Temporal Encoder (MLP / BiGRU)&lt;/b&gt;" vertex="1">
-          <mxGeometry height="42" width="300" x="320" y="185" as="geometry" />
+        <mxCell id="f1_encoder" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Temporal Encoder: BiGRU + Attention&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="320" y="181" as="geometry" />
         </mxCell>
         <mxCell id="a_f1_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f1_stats" value="">
           <mxGeometry relative="1" as="geometry">
@@ -12536,7 +12536,7 @@
         <mxCell id="a_f1_2" edge="1" parent="1" source="f1_stats" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f1_encoder" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f2_banner" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#404040;strokeColor=#000000;fontSize=11;" value="&lt;b&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;CVAE + Gaussian Prototype Learning&lt;/font&gt;&lt;/b&gt;  &lt;font color=&quot;#D0D0D0&quot; style=&quot;font-size:9px;&quot;&gt;(metode diadopsi dari Open-Detect)&lt;/font&gt;" vertex="1">
+        <mxCell id="f2_banner" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#404040;strokeColor=#000000;fontSize=11;" value="&lt;b&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;CVAE + Gaussian Prototype Learning&lt;/font&gt;&lt;/b&gt;  &lt;font color=&quot;#D0D0D0&quot; style=&quot;font-size:9px;&quot;&gt;(Open-Detect)&lt;/font&gt;" vertex="1">
           <mxGeometry height="28" width="680" x="160" y="272" as="geometry" />
         </mxCell>
         <mxCell id="a_f12" edge="1" parent="1" source="f1_encoder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;entryX=0.457;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" target="f2_banner" value="">
@@ -12575,6 +12575,9 @@
         <mxCell id="f2_proto" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8D8D8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Prototipe Gaussian&lt;/b&gt;  {μ&lt;sub&gt;k&lt;/sub&gt;, Σ&lt;sub&gt;k&lt;/sub&gt;} per kelas" vertex="1">
           <mxGeometry height="40" width="320" x="310" y="400" as="geometry" />
         </mxCell>
+        <mxCell id="f2_loss" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=9;fontColor=#666666;fontStyle=2;" value="L&lt;sub&gt;base&lt;/sub&gt; = L&lt;sub&gt;cls&lt;/sub&gt; + λ·L&lt;sub&gt;gen&lt;/sub&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="370" y="445" as="geometry" />
+        </mxCell>
         <mxCell id="a_proto_rep" edge="1" parent="1" source="f2_proto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f2_rep_title" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -12590,14 +12593,14 @@
             <mxPoint x="470" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f3_detect" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8D8D8;strokeColor=#000000;fontSize=12;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Distance-based Detection&lt;/b&gt;" vertex="1">
-          <mxGeometry height="40" width="320" x="310" y="860" as="geometry" />
+        <mxCell id="f3_detect" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8D8D8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;KL Divergence + EVT Threshold&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="340" x="300" y="856" as="geometry" />
         </mxCell>
         <mxCell id="a_f3_1" edge="1" parent="1" source="f3_detect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f3_decision" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f3_decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#000000;fontSize=11;fontColor=#000000;" value="d(&lt;i&gt;z&lt;/i&gt;, μ&lt;sub&gt;k&lt;/sub&gt;) &amp;lt; τ" vertex="1">
-          <mxGeometry height="80" width="160" x="390" y="930" as="geometry" />
+        <mxCell id="f3_decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#000000;fontSize=10;fontColor=#000000;" value="KL(q||p&lt;sub&gt;k&lt;/sub&gt;) &amp;lt; τ&lt;sub&gt;EVT&lt;/sub&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="385" y="930" as="geometry" />
         </mxCell>
         <mxCell id="f3_known" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0B0B0;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Known Class&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="155" y="1060" as="geometry" />
@@ -12605,8 +12608,8 @@
         <mxCell id="f3_unknown" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0B0B0;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Unknown Class&lt;/b&gt;" vertex="1">
           <mxGeometry height="40" width="160" x="620" y="1060" as="geometry" />
         </mxCell>
-        <mxCell id="f3_gmm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;GMM Clustering&lt;/b&gt;&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;(klasterisasi kelas baru)&lt;/i&gt;" vertex="1">
-          <mxGeometry height="40" width="160" x="620" y="1120" as="geometry" />
+        <mxCell id="f3_gmm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=11;arcSize=12;fontColor=#000000;" value="&lt;b&gt;GMM + BIC&lt;/b&gt;&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;(auto-select K klaster baru)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="44" width="160" x="620" y="1118" as="geometry" />
         </mxCell>
         <mxCell id="a_f3_yes" edge="1" parent="1" source="f3_decision" style="rounded=0;html=1;strokeColor=#000000;strokeWidth=2;exitX=0;exitY=0.5;entryX=0.5;entryY=0;fontColor=#000000;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;" target="f3_known" value="&lt;b&gt;YES&lt;/b&gt;">
           <mxGeometry relative="1" as="geometry" />
@@ -12623,11 +12626,11 @@
         <mxCell id="f4_init" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Inisialisasi Prototipe Baru&lt;br&gt;μ&lt;sub&gt;new&lt;/sub&gt;, Σ&lt;sub&gt;new&lt;/sub&gt; dari statistik klaster" vertex="1">
           <mxGeometry height="42" width="260" x="340" y="1200" as="geometry" />
         </mxCell>
-        <mxCell id="f4_replay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Exemplar Replay&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;(simpan sampel representatif, anggaran tetap)&lt;/i&gt;" vertex="1">
-          <mxGeometry height="42" width="260" x="340" y="1268" as="geometry" />
+        <mxCell id="f4_replay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Herding Exemplar Selection&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;⌊M / |Y&lt;sub&gt;b&lt;/sub&gt;|⌋ per kelas, budget rebalancing&lt;/i&gt;" vertex="1">
+          <mxGeometry height="46" width="280" x="330" y="1266" as="geometry" />
         </mxCell>
-        <mxCell id="f4_finetune" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Fine-tune&lt;/b&gt;: L&lt;sub&gt;cls&lt;/sub&gt; (kelas baru) + Contrastive KD (kelas lama)" vertex="1">
-          <mxGeometry height="42" width="320" x="310" y="1338" as="geometry" />
+        <mxCell id="f4_finetune" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Fine-tune&lt;/b&gt;: L&lt;sub&gt;inc&lt;/sub&gt; = L&lt;sub&gt;cls&lt;/sub&gt; + α·L&lt;sub&gt;NCE&lt;/sub&gt; + λ·L&lt;sub&gt;gen&lt;/sub&gt;&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;Contrastive Distillation + Generative Loss&lt;/i&gt;" vertex="1">
+          <mxGeometry height="52" width="360" x="290" y="1336" as="geometry" />
         </mxCell>
         <mxCell id="f4_updated" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=0;size=15;fillColor=#E0E0E0;strokeColor=none;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Model &amp;amp; Prototipe Diperbarui&lt;/b&gt;" vertex="1">
           <mxGeometry height="42" width="280" x="330" y="1412" as="geometry" />
