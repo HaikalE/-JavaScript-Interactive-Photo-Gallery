@@ -12476,7 +12476,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVVEr65wHq39kqPrR_Pw" name="Page-54">
-    <mxGraphModel dx="1792" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1560" math="0" shadow="0">
+    <mxGraphModel dx="2555" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1560" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12623,10 +12623,10 @@
         <mxCell id="a_f34" edge="1" parent="1" source="f3_gmm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f3_pseudo" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f4_init" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Inisialisasi Prototipe Baru&lt;br&gt;μ&lt;sub&gt;new&lt;/sub&gt;, Σ&lt;sub&gt;new&lt;/sub&gt; dari klaster &lt;i&gt;pseudo-labeled&lt;/i&gt;" vertex="1">
+        <mxCell id="f4_init" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8D8D8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Inisialisasi Prototipe Baru&lt;br&gt;μ&lt;sub&gt;new&lt;/sub&gt;, Σ&lt;sub&gt;new&lt;/sub&gt; dari klaster &lt;i&gt;pseudo-labeled&lt;/i&gt;" vertex="1">
           <mxGeometry height="42" width="260" x="340" y="1255" as="geometry" />
         </mxCell>
-        <mxCell id="f4_replay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Herding Exemplar Selection&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;⌊M / |Y&lt;sub&gt;b&lt;/sub&gt;|⌋ per kelas, budget rebalancing&lt;/i&gt;" vertex="1">
+        <mxCell id="f4_replay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8D8D8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Herding Exemplar Selection&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;⌊M / |Y&lt;sub&gt;b&lt;/sub&gt;|⌋ per kelas, budget rebalancing&lt;/i&gt;" vertex="1">
           <mxGeometry height="46" width="280" x="330" y="1321" as="geometry" />
         </mxCell>
         <mxCell id="f4_finetune" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Fine-tune&lt;/b&gt;: L&lt;sub&gt;inc&lt;/sub&gt; = L&lt;sub&gt;cls&lt;/sub&gt; + α·L&lt;sub&gt;NCE&lt;/sub&gt; + λ·L&lt;sub&gt;gen&lt;/sub&gt;&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;Contrastive Distillation + Generative Loss&lt;/i&gt;" vertex="1">
