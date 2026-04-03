@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6" pages="54">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="54">
   <diagram name="Page-1" id="WuqDBP2HpBR56diwF8Lw">
     <mxGraphModel dx="2264" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -12476,7 +12476,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVVEr65wHq39kqPrR_Pw" name="Page-54">
-    <mxGraphModel dx="1980" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1560" math="0" shadow="0">
+    <mxGraphModel dx="1792" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1560" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12620,20 +12620,20 @@
         <mxCell id="a_f3_gmm" edge="1" parent="1" source="f3_unknown" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f3_gmm" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a_f34" edge="1" parent="1" source="f3_gmm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f4_init" value="">
+        <mxCell id="a_f34" edge="1" parent="1" source="f3_gmm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f3_pseudo" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f4_init" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Inisialisasi Prototipe Baru&lt;br&gt;μ&lt;sub&gt;new&lt;/sub&gt;, Σ&lt;sub&gt;new&lt;/sub&gt; dari statistik klaster" vertex="1">
-          <mxGeometry height="42" width="260" x="340" y="1200" as="geometry" />
+        <mxCell id="f4_init" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Inisialisasi Prototipe Baru&lt;br&gt;μ&lt;sub&gt;new&lt;/sub&gt;, Σ&lt;sub&gt;new&lt;/sub&gt; dari klaster &lt;i&gt;pseudo-labeled&lt;/i&gt;" vertex="1">
+          <mxGeometry height="42" width="260" x="340" y="1255" as="geometry" />
         </mxCell>
         <mxCell id="f4_replay" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="Herding Exemplar Selection&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;⌊M / |Y&lt;sub&gt;b&lt;/sub&gt;|⌋ per kelas, budget rebalancing&lt;/i&gt;" vertex="1">
-          <mxGeometry height="46" width="280" x="330" y="1266" as="geometry" />
+          <mxGeometry height="46" width="280" x="330" y="1321" as="geometry" />
         </mxCell>
         <mxCell id="f4_finetune" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8C8C8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Fine-tune&lt;/b&gt;: L&lt;sub&gt;inc&lt;/sub&gt; = L&lt;sub&gt;cls&lt;/sub&gt; + α·L&lt;sub&gt;NCE&lt;/sub&gt; + λ·L&lt;sub&gt;gen&lt;/sub&gt;&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;Contrastive Distillation + Generative Loss&lt;/i&gt;" vertex="1">
-          <mxGeometry height="52" width="360" x="290" y="1336" as="geometry" />
+          <mxGeometry height="52" width="360" x="290" y="1391" as="geometry" />
         </mxCell>
         <mxCell id="f4_updated" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=0;size=15;fillColor=#E0E0E0;strokeColor=none;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Model &amp;amp; Prototipe Diperbarui&lt;/b&gt;" vertex="1">
-          <mxGeometry height="42" width="280" x="330" y="1412" as="geometry" />
+          <mxGeometry height="42" width="280" x="330" y="1467" as="geometry" />
         </mxCell>
         <mxCell id="a_f4_1" edge="1" parent="1" source="f4_init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f4_replay" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -12647,10 +12647,10 @@
         <mxCell id="loop_back" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=8 4;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;endArrow=block;endFill=1;fontColor=#000000;" target="f2_banner" value="&lt;i style=&quot;font-size:9px;&quot;&gt;update prototype space&lt;/i&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="1433" />
+              <mxPoint x="100" y="1488" />
               <mxPoint x="100" y="286" />
             </Array>
-            <mxPoint x="380" y="1433" as="sourcePoint" />
+            <mxPoint x="380" y="1488" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cq59o62H8eml3hFgE7Vw-3" connectable="0" parent="1" style="group" value="" vertex="1">
@@ -12730,6 +12730,12 @@
         </mxCell>
         <mxCell id="leg_rep_txt" parent="cq59o62H8eml3hFgE7Vw-3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontColor=#000000;" value="Repr. Space" vertex="1">
           <mxGeometry height="16" width="58.45588235294118" x="450.5" y="224.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="f3_pseudo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D8D8D8;strokeColor=#000000;fontSize=10;arcSize=12;fontColor=#000000;" value="&lt;b&gt;Pseudo-Labeling&lt;/b&gt;&lt;br&gt;&lt;i style=&quot;font-size:9px;&quot;&gt;Assign Unknown-1, Unknown-2, …, Unknown-K&lt;/i&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="350" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="a_pseudo_init" edge="1" parent="1" source="f3_pseudo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;" target="f4_init" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
